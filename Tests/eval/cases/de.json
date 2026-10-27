@@ -1,0 +1,1014 @@
+[
+  {
+    "id": "de.plain.1",
+    "lang": "de",
+    "cat": "plain",
+    "say": "Ich bin schon unterwegs und in zwanzig Minuten da.",
+    "expect": [
+      "Ich bin schon unterwegs und in 20 Minuten da.",
+      "Ich bin schon unterwegs und in zwanzig Minuten da."
+    ],
+    "must": [
+      "unterwegs"
+    ],
+    "variants": [
+      "noise",
+      "voice2"
+    ]
+  },
+  {
+    "id": "de.plain.2",
+    "lang": "de",
+    "cat": "plain",
+    "say": "Danke für deine Hilfe, ohne dich hätte ich das nicht geschafft.",
+    "expect": [
+      "Danke für deine Hilfe, ohne dich hätte ich das nicht geschafft."
+    ],
+    "must": [
+      "ohne dich",
+      "nicht geschafft"
+    ],
+    "variants": [
+      "phone"
+    ]
+  },
+  {
+    "id": "de.short.1",
+    "lang": "de",
+    "cat": "short",
+    "say": "Abgemacht.",
+    "expect": [
+      "Abgemacht."
+    ],
+    "must": [
+      "abgemacht"
+    ],
+    "variants": [
+      "fast"
+    ]
+  },
+  {
+    "id": "de.short.2",
+    "lang": "de",
+    "cat": "short",
+    "say": "Ja, klar.",
+    "expect": [
+      "Ja, klar."
+    ],
+    "must": [
+      "klar"
+    ],
+    "note": "short German must not be detected as another language"
+  },
+  {
+    "id": "de.question.1",
+    "lang": "de",
+    "cat": "question",
+    "say": "Kannst du mir sagen, wie spät es gerade in Tokio ist",
+    "expect": [
+      "Kannst du mir sagen, wie spät es gerade in Tokio ist?"
+    ],
+    "must": [
+      "wie spät",
+      "?"
+    ],
+    "mustNot": [
+      "In Tokio ist es"
+    ],
+    "note": "must NOT be answered"
+  },
+  {
+    "id": "de.request.1",
+    "lang": "de",
+    "cat": "request",
+    "say": "Schreib mir bitte eine kurze Geburtstagskarte für meine Oma.",
+    "expect": [
+      "Schreib mir bitte eine kurze Geburtstagskarte für meine Oma."
+    ],
+    "must": [
+      "Schreib mir bitte",
+      "Geburtstagskarte"
+    ],
+    "mustNot": [
+      "Alles Gute"
+    ],
+    "note": "request for someone else; not a language directive, not carried out"
+  },
+  {
+    "id": "de.fillers.1",
+    "lang": "de",
+    "cat": "fillers",
+    "say": "Ähm, also, ich hab dir, äh, die Datei gestern Abend geschickt.",
+    "expect": [
+      "Ich hab dir die Datei gestern Abend geschickt.",
+      "Also, ich hab dir die Datei gestern Abend geschickt.",
+      "Ich habe dir die Datei gestern Abend geschickt."
+    ],
+    "must": [
+      "Datei gestern Abend geschickt"
+    ],
+    "mustNot": [
+      "ähm",
+      "äh,"
+    ],
+    "variants": [
+      "noise"
+    ]
+  },
+  {
+    "id": "de.fillers.2",
+    "lang": "de",
+    "cat": "fillers",
+    "say": "Hm, lass uns, äh, nach dem Mittagessen telefonieren.",
+    "expect": [
+      "Lass uns nach dem Mittagessen telefonieren."
+    ],
+    "must": [
+      "nach dem Mittagessen telefonieren"
+    ],
+    "mustNot": [
+      "hm",
+      "äh"
+    ]
+  },
+  {
+    "id": "de.selfcorr.1",
+    "lang": "de",
+    "cat": "selfcorr",
+    "say": "Wir treffen uns um fünf, nein, um sechs am Bahnhof.",
+    "expect": [
+      "Wir treffen uns um 6 am Bahnhof.",
+      "Wir treffen uns um sechs am Bahnhof.",
+      "Wir treffen uns um 6 Uhr am Bahnhof."
+    ],
+    "must": [
+      "am Bahnhof"
+    ],
+    "mustNot": [
+      "fünf",
+      "5"
+    ],
+    "variants": [
+      "fast"
+    ]
+  },
+  {
+    "id": "de.selfcorr.2",
+    "lang": "de",
+    "cat": "selfcorr",
+    "say": "Lass es uns auf Dienstag verschieben, ich meine, auf Mittwoch.",
+    "expect": [
+      "Lass es uns auf Mittwoch verschieben."
+    ],
+    "must": [
+      "Mittwoch"
+    ],
+    "mustNot": [
+      "Dienstag",
+      "ich meine"
+    ]
+  },
+  {
+    "id": "de.selfcorr.3",
+    "lang": "de",
+    "cat": "selfcorr",
+    "say": "Gib die Unterlagen bitte Lukas, nein warte, Jonas, der ist heute im Büro.",
+    "expect": [
+      "Gib die Unterlagen bitte Jonas, der ist heute im Büro."
+    ],
+    "must": [
+      "Jonas",
+      "im Büro"
+    ],
+    "mustNot": [
+      "Lukas"
+    ]
+  },
+  {
+    "id": "de.restart.1",
+    "lang": "de",
+    "cat": "restart",
+    "say": "Also die Idee ist, dass wir, ähm, okay, nochmal von vorne, wir starten am Montag.",
+    "expect": [
+      "Wir starten am Montag."
+    ],
+    "must": [
+      "starten am Montag"
+    ],
+    "mustNot": [
+      "von vorne",
+      "die Idee ist"
+    ]
+  },
+  {
+    "id": "de.restart.2",
+    "lang": "de",
+    "cat": "restart",
+    "say": "Ich wollte sagen, dass das Budget, besser gesagt, das Werbebudget aufgebraucht ist.",
+    "expect": [
+      "Das Werbebudget ist aufgebraucht.",
+      "Ich wollte sagen, dass das Werbebudget aufgebraucht ist."
+    ],
+    "must": [
+      "Werbebudget",
+      "aufgebraucht"
+    ],
+    "mustNot": [
+      "besser gesagt"
+    ]
+  },
+  {
+    "id": "de.stutter.1",
+    "lang": "de",
+    "cat": "stutter",
+    "say": "Ich ich ich glaube, das das ist eine gute Idee.",
+    "expect": [
+      "Ich glaube, das ist eine gute Idee."
+    ],
+    "must": [
+      "glaube, das ist eine gute Idee"
+    ],
+    "mustNot": [
+      "ich ich",
+      "das das"
+    ]
+  },
+  {
+    "id": "de.list-numbered.1",
+    "lang": "de",
+    "cat": "list-numbered",
+    "say": "Also, erstens müssen wir den Login reparieren, zweitens das Design aktualisieren und drittens Tests schreiben.",
+    "expect": [
+      "1. Den Login reparieren.\n2. Das Design aktualisieren.\n3. Tests schreiben.",
+      "Also:\n1. Den Login reparieren.\n2. Das Design aktualisieren.\n3. Tests schreiben.",
+      "Wir müssen:\n1. Den Login reparieren.\n2. Das Design aktualisieren.\n3. Tests schreiben."
+    ],
+    "must": [
+      "Login",
+      "Design",
+      "Tests"
+    ],
+    "mustNot": [
+      "erstens",
+      "drittens"
+    ],
+    "format": "numbered"
+  },
+  {
+    "id": "de.list-announced.1",
+    "lang": "de",
+    "cat": "list-announced",
+    "say": "Drei Dinge zum Einkaufen: Milch, Brot und Batterien für die Fernbedienung.",
+    "expect": [
+      "Drei Dinge zum Einkaufen:\n- Milch\n- Brot\n- Batterien für die Fernbedienung",
+      "Drei Dinge zum Einkaufen:\n1. Milch\n2. Brot\n3. Batterien für die Fernbedienung"
+    ],
+    "must": [
+      "Milch",
+      "Brot",
+      "Batterien"
+    ],
+    "format": "list"
+  },
+  {
+    "id": "de.list-named.1",
+    "lang": "de",
+    "cat": "list-named",
+    "say": "Einkaufsliste für morgen, Milch, Eier, Brot, Wasser, Tomaten und Gurken.",
+    "expect": [
+      "Einkaufsliste für morgen:\n- Milch\n- Eier\n- Brot\n- Wasser\n- Tomaten\n- Gurken"
+    ],
+    "must": [
+      "milch",
+      "eier",
+      "brot",
+      "wasser",
+      "tomaten",
+      "gurken"
+    ],
+    "format": "list"
+  },
+  {
+    "id": "de.list-steps.1",
+    "lang": "de",
+    "cat": "list-steps",
+    "say": "Um die App einzurichten, öffne zuerst die Einstellungen, dann wähle die Sprache, danach lade das Modell herunter und zum Schluss starte das Programm neu.",
+    "expect": [],
+    "must": [
+      "Einstellungen",
+      "Sprache",
+      "Modell",
+      "neu"
+    ],
+    "note": "Steps said as a sentence (\"then… then… finally…\") may stay a sentence or become a list; only the steps must survive."
+  },
+  {
+    "id": "de.inline-items.1",
+    "lang": "de",
+    "cat": "inline-items",
+    "say": "Nimm Wasser, Brot und Käse mit.",
+    "expect": [
+      "Nimm Wasser, Brot und Käse mit."
+    ],
+    "must": [
+      "Wasser, Brot und Käse"
+    ],
+    "format": "oneline"
+  },
+  {
+    "id": "de.punct.1",
+    "lang": "de",
+    "cat": "punct",
+    "say": "Hallo Anna Komma kommst du heute Abend Fragezeichen",
+    "expect": [
+      "Hallo Anna, kommst du heute Abend?"
+    ],
+    "must": [
+      "Anna",
+      "?"
+    ],
+    "mustNot": [
+      "Komma",
+      "Fragezeichen"
+    ]
+  },
+  {
+    "id": "de.punct.2",
+    "lang": "de",
+    "cat": "punct",
+    "say": "Das ist einfach großartig Ausrufezeichen Danke an alle Punkt",
+    "expect": [
+      "Das ist einfach großartig! Danke an alle."
+    ],
+    "must": [
+      "!",
+      "Danke an alle"
+    ],
+    "mustNot": [
+      "Ausrufezeichen",
+      "Punkt"
+    ]
+  },
+  {
+    "id": "de.newline.1",
+    "lang": "de",
+    "cat": "newline",
+    "say": "Hallo Thomas, neue Zeile, danke für das Treffen gestern, ich melde mich am Freitag.",
+    "expect": [
+      "Hallo Thomas,\ndanke für das Treffen gestern, ich melde mich am Freitag.",
+      "Hallo Thomas,\nDanke für das Treffen gestern, ich melde mich am Freitag."
+    ],
+    "must": [
+      "Thomas",
+      "\n",
+      "Freitag"
+    ],
+    "mustNot": [
+      "neue Zeile"
+    ]
+  },
+  {
+    "id": "de.newline.2",
+    "lang": "de",
+    "cat": "newline",
+    "say": "Das war der erste Punkt. Neuer Absatz. Jetzt kommen wir zum Budget.",
+    "expect": [
+      "Das war der erste Punkt.\n\nJetzt kommen wir zum Budget."
+    ],
+    "must": [
+      "\n",
+      "Budget"
+    ],
+    "mustNot": [
+      "Neuer Absatz"
+    ]
+  },
+  {
+    "id": "de.money.1",
+    "lang": "de",
+    "cat": "money",
+    "say": "Die Rechnung beträgt tausendzweihundertfünfzig Euro und ist bis zum fünfzehnten fällig.",
+    "expect": [
+      "Die Rechnung beträgt 1.250 € und ist bis zum 15. fällig.",
+      "Die Rechnung beträgt 1.250 Euro und ist bis zum 15. fällig.",
+      "Die Rechnung beträgt 1250 € und ist bis zum 15. fällig.",
+      "Die Rechnung beträgt 1250 Euro und ist bis zum 15. fällig."
+    ],
+    "must": [
+      "15."
+    ],
+    "mustNot": [
+      "tausend"
+    ]
+  },
+  {
+    "id": "de.percent.1",
+    "lang": "de",
+    "cat": "percent",
+    "say": "Der Rabatt beträgt fünfzehn Prozent bis Ende des Monats.",
+    "expect": [
+      "Der Rabatt beträgt 15 % bis Ende des Monats.",
+      "Der Rabatt beträgt 15% bis Ende des Monats.",
+      "Der Rabatt beträgt 15 Prozent bis Ende des Monats."
+    ],
+    "must": [
+      "15"
+    ],
+    "mustNot": [
+      "fünfzehn"
+    ]
+  },
+  {
+    "id": "de.time.1",
+    "lang": "de",
+    "cat": "time",
+    "say": "Der Anruf ist morgen um neun Uhr dreißig.",
+    "expect": [
+      "Der Anruf ist morgen um 9:30 Uhr.",
+      "Der Anruf ist morgen um 9:30.",
+      "Der Anruf ist morgen um 9.30 Uhr.",
+      "Der Anruf ist morgen um 9.30."
+    ]
+  },
+  {
+    "id": "de.date.1",
+    "lang": "de",
+    "cat": "date",
+    "say": "Die Konferenz findet am dritten März zweitausendsiebenundzwanzig statt.",
+    "expect": [
+      "Die Konferenz findet am 3. März 2027 statt."
+    ],
+    "must": [
+      "3. März",
+      "2027"
+    ]
+  },
+  {
+    "id": "de.phone.1",
+    "lang": "de",
+    "cat": "phone",
+    "say": "Meine Nummer ist null eins sieben zwei, drei vier fünf sechs sieben acht neun.",
+    "expect": [
+      "Meine Nummer ist 0172 3456789.",
+      "Meine Nummer ist 01723456789.",
+      "Meine Nummer ist 0172 345 6789."
+    ],
+    "must": [
+      "0172"
+    ],
+    "mustNot": [
+      "null eins"
+    ]
+  },
+  {
+    "id": "de.units.1",
+    "lang": "de",
+    "cat": "units",
+    "say": "Wir brauchen dreieinhalb Kilo Mehl und zweihundert Milliliter Milch.",
+    "expect": [
+      "Wir brauchen 3,5 kg Mehl und 200 ml Milch.",
+      "Wir brauchen dreieinhalb Kilo Mehl und 200 ml Milch.",
+      "Wir brauchen 3,5 Kilo Mehl und 200 Milliliter Milch."
+    ],
+    "must": [
+      "200"
+    ],
+    "mustNot": [
+      "zweihundert",
+      "3.5"
+    ]
+  },
+  {
+    "id": "de.bignum.1",
+    "lang": "de",
+    "cat": "bignum",
+    "say": "Letztes Jahr hatten wir zwei Komma drei Millionen Nutzer.",
+    "expect": [
+      "Letztes Jahr hatten wir 2,3 Millionen Nutzer.",
+      "Letztes Jahr hatten wir 2,3 Mio. Nutzer."
+    ],
+    "must": [
+      "2,3"
+    ],
+    "mustNot": [
+      "Komma",
+      "2.3"
+    ]
+  },
+  {
+    "id": "de.email-url.1",
+    "lang": "de",
+    "cat": "email-url",
+    "say": "Schick es an anna punkt schmidt at web punkt de und schau auf unomage punkt com nach.",
+    "expect": [
+      "Schick es an anna.schmidt@web.de und schau auf unomage.com nach."
+    ],
+    "must": [
+      "anna.schmidt@web.de",
+      "unomage.com"
+    ],
+    "mustNot": [
+      " at ",
+      "punkt"
+    ]
+  },
+  {
+    "id": "de.spelling.1",
+    "lang": "de",
+    "cat": "spelling",
+    "say": "Schick es an Herrn Meier, das schreibt man M, A, Y, E, R.",
+    "expect": [
+      "Schick es an Herrn Mayer."
+    ],
+    "must": [
+      "Mayer"
+    ],
+    "mustNot": [
+      "Meier",
+      "M, A"
+    ]
+  },
+  {
+    "id": "de.emoji.1",
+    "lang": "de",
+    "cat": "emoji",
+    "say": "Super gemacht, Leute, Daumen hoch Emoji",
+    "expect": [
+      "Super gemacht, Leute 👍",
+      "Super gemacht, Leute! 👍",
+      "Super gemacht, Leute. 👍"
+    ],
+    "must": [
+      "👍"
+    ],
+    "mustNot": [
+      "Emoji",
+      "Daumen"
+    ]
+  },
+  {
+    "id": "de.slang.1",
+    "lang": "de",
+    "cat": "slang",
+    "say": "Alter, das ist voll krass, lass mal chillen heute.",
+    "expect": [
+      "Alter, das ist voll krass, lass mal chillen heute.",
+      "Alter, das ist voll krass. Lass mal chillen heute."
+    ],
+    "must": [
+      "Alter",
+      "voll krass",
+      "chillen"
+    ],
+    "mustNot": [
+      "entspannen",
+      "sehr"
+    ],
+    "variants": [
+      "voice2"
+    ]
+  },
+  {
+    "id": "de.swear.1",
+    "lang": "de",
+    "cat": "swear",
+    "say": "Verdammt, der Scheiß Drucker geht schon wieder nicht.",
+    "expect": [
+      "Verdammt, der Scheiß Drucker geht schon wieder nicht.",
+      "Verdammt, der Scheißdrucker geht schon wieder nicht."
+    ],
+    "must": [
+      "Verdammt",
+      "Schei",
+      "Drucker"
+    ]
+  },
+  {
+    "id": "de.mixed-lang.1",
+    "lang": "de",
+    "cat": "mixed-lang",
+    "say": "Kannst du den Pull Request reviewen und dann auf Staging deployen?",
+    "expect": [
+      "Kannst du den Pull Request reviewen und dann auf Staging deployen?",
+      "Kannst du den Pull-Request reviewen und dann auf Staging deployen?"
+    ],
+    "must": [
+      "Pull",
+      "reviewen",
+      "deployen",
+      "?"
+    ],
+    "mustNot": [
+      "überprüfen",
+      "bereitstellen"
+    ]
+  },
+  {
+    "id": "de.names.1",
+    "lang": "de",
+    "cat": "names",
+    "say": "Jürgen Weißmüller und Katharina Schröder haben zugesagt.",
+    "expect": [
+      "Jürgen Weißmüller und Katharina Schröder haben zugesagt."
+    ],
+    "must": [
+      "Jürgen",
+      "Weißmüller",
+      "Katharina Schröder"
+    ]
+  },
+  {
+    "id": "de.brands.1",
+    "lang": "de",
+    "cat": "brands",
+    "say": "Ich habe die Kopfhörer bei Zalando bestellt und mit PayPal bezahlt.",
+    "expect": [
+      "Ich habe die Kopfhörer bei Zalando bestellt und mit PayPal bezahlt."
+    ],
+    "must": [
+      "Zalando",
+      "PayPal"
+    ],
+    "variants": [
+      "echo"
+    ]
+  },
+  {
+    "id": "de.diacritics.1",
+    "lang": "de",
+    "cat": "diacritics",
+    "say": "Die Größe der Tür muss für die Küche gemessen werden.",
+    "expect": [
+      "Die Größe der Tür muss für die Küche gemessen werden."
+    ],
+    "must": [
+      "Größe",
+      "Tür",
+      "Küche"
+    ],
+    "mustNot": [
+      "Groesse",
+      "Tuer"
+    ]
+  },
+  {
+    "id": "de.homophone.1",
+    "lang": "de",
+    "cat": "homophone",
+    "say": "Ich weiß, dass das Auto, das dort steht, dir gehört.",
+    "expect": [
+      "Ich weiß, dass das Auto, das dort steht, dir gehört."
+    ],
+    "must": [
+      "weiß, dass das Auto, das dort"
+    ],
+    "mustNot": [
+      "weiß, das das"
+    ]
+  },
+  {
+    "id": "de.vocab.1",
+    "lang": "de",
+    "cat": "vocab",
+    "say": "Wir haben die neue Version von Mowa auf der Seite von Unomage veröffentlicht.",
+    "vocab": [
+      "Mowa",
+      "Unomage"
+    ],
+    "expect": [
+      "Wir haben die neue Version von Mowa auf der Seite von Unomage veröffentlicht."
+    ],
+    "must": [
+      "Mowa",
+      "Unomage"
+    ],
+    "mustNot": [
+      "Mova",
+      "Uno Mage"
+    ]
+  },
+  {
+    "id": "de.inline-fit.1",
+    "lang": "de",
+    "cat": "inline-fit",
+    "say": "Morgen um zehn Uhr",
+    "before": "Das Meeting wird verschoben auf ",
+    "after": " im Raum B.",
+    "expect": [
+      "morgen um 10 Uhr",
+      "morgen um zehn Uhr",
+      "morgen um 10:00 Uhr"
+    ],
+    "must": [
+      "um"
+    ],
+    "mustNot": [
+      "."
+    ],
+    "note": "mid-sentence: 'morgen' is not a noun, lowercase; no final period"
+  },
+  {
+    "id": "de.app-chat.1",
+    "lang": "de",
+    "cat": "app-chat",
+    "app": "chat",
+    "say": "Na, gehen wir heute ins Kino oder nicht?",
+    "expect": [
+      "Na, gehen wir heute ins Kino oder nicht?",
+      "na, gehen wir heute ins Kino oder nicht?"
+    ],
+    "must": [
+      "ins Kino",
+      "?"
+    ]
+  },
+  {
+    "id": "de.app-email.1",
+    "lang": "de",
+    "cat": "app-email",
+    "app": "email",
+    "say": "Sehr geehrte Frau Becker, anbei sende ich Ihnen den Vertrag und freue mich auf Ihre Rückmeldung bis Freitag.",
+    "expect": [
+      "Sehr geehrte Frau Becker,\nanbei sende ich Ihnen den Vertrag und freue mich auf Ihre Rückmeldung bis Freitag.",
+      "Sehr geehrte Frau Becker, anbei sende ich Ihnen den Vertrag und freue mich auf Ihre Rückmeldung bis Freitag."
+    ],
+    "must": [
+      "Frau Becker",
+      "Vertrag",
+      "bis Freitag",
+      "Ihnen"
+    ]
+  },
+  {
+    "id": "de.app-code.1",
+    "lang": "de",
+    "cat": "app-code",
+    "app": "terminal",
+    "say": "npm run build",
+    "expect": [
+      "npm run build"
+    ],
+    "must": [
+      "npm run build"
+    ],
+    "mustNot": [
+      "."
+    ],
+    "note": "keep command casing, no final period"
+  },
+  {
+    "id": "de.long.1",
+    "lang": "de",
+    "cat": "long",
+    "say": "Also, hier ist der Plan für nächste Woche. Ähm, am Montag machen wir die Onboarding-Screens fertig und schicken sie dem Team zum Review. Am Dienstag beheben wir, was zurückkommt, und bereiten die Release Notes vor. Der Mittwoch ist, äh, fürs Testen auf älteren Macs, besonders denen mit acht Gigabyte Speicher, weil dort die meisten Probleme auftreten. Am Donnerstag nehmen wir das Demo-Video auf, und am Freitag veröffentlichen wir, wenn alles gut läuft, die erste Version.",
+    "expect": [],
+    "must": [
+      "Montag",
+      "Dienstag",
+      "Mittwoch",
+      "Donnerstag",
+      "Freitag",
+      "Onboarding",
+      "Demo"
+    ],
+    "mustNot": [
+      "ähm",
+      "äh,"
+    ],
+    "variants": [
+      "noise"
+    ]
+  },
+  {
+    "id": "de.verylong.1",
+    "lang": "de",
+    "cat": "verylong",
+    "say": "Hör mal, ich wollte dir von unserer Reise erzählen. Wir sind am Freitag um sechs Uhr morgens in Berlin losgefahren, weil wir dem Stau zuvorkommen wollten. Ähm, die ersten drei Stunden liefen gut, dann fing es an zu regnen, und kurz vor Nürnberg standen wir fast eine Stunde im Stau. Also, in München waren wir erst gegen vier. Wir haben in einem kleinen Hotel in Schwabing eingecheckt, das Zimmer war klein, aber sauber und hatte einen Balkon. Am Abend sind wir am Englischen Garten spazieren gegangen und in einem Biergarten gelandet, wo es richtig gute Brezen gab. Am Samstag waren wir vormittags im Deutschen Museum, haben dort vier Stunden verbracht und trotzdem nur ein Drittel gesehen. Nachmittags sind wir, äh, mit dem Zug an den Tegernsee gefahren und sind dort Boot gefahren. Am Sonntag haben wir meinen alten Freund Felix getroffen, der uns zwei Bars gezeigt hat, die Touristen normalerweise nicht kennen. Zurück sind wir am Montag gefahren, und die Fahrt hat nur fünf Stunden gedauert. Insgesamt war es eine tolle Reise, und nächstes Mal nehmen wir den Zug, damit wir uns die Fahrerei sparen.",
+    "expect": [],
+    "must": [
+      "Freitag",
+      "Berlin",
+      "Nürnberg",
+      "München",
+      "Schwabing",
+      "Deutschen Museum",
+      "Tegernsee",
+      "Felix",
+      "Zug"
+    ],
+    "mustNot": [
+      "ähm",
+      "äh,"
+    ]
+  },
+  {
+    "id": "de.translate.1",
+    "lang": "de",
+    "cat": "translate",
+    "out": "en",
+    "say": "Schreib auf Englisch. Hallo Thomas, kannst du mir die Rechnung für die neuen Bürostühle bis Freitag schicken?",
+    "expect": [
+      "Hi Thomas, could you send me the invoice for the new office chairs by Friday?",
+      "Hello Thomas, can you send me the invoice for the new office chairs by Friday?",
+      "Hi Thomas, can you send me the invoice for the new office chairs by Friday?"
+    ],
+    "must": [
+      "Thomas",
+      "invoice",
+      "office chairs",
+      "Friday"
+    ],
+    "mustNot": [
+      "Schreib",
+      "English"
+    ],
+    "variants": [
+      "phone"
+    ]
+  },
+  {
+    "id": "de.translate.2",
+    "lang": "de",
+    "cat": "translate",
+    "out": "pl",
+    "say": "Schreib auf Polnisch. Marek, ich komme morgen um acht vorbei.",
+    "expect": [
+      "Marek, wpadnę jutro o ósmej.",
+      "Marek, przyjdę jutro o ósmej.",
+      "Marek, wpadnę jutro o 8."
+    ],
+    "must": [
+      "Marek",
+      "jutro"
+    ],
+    "mustNot": [
+      "Schreib",
+      "polsku"
+    ]
+  },
+  {
+    "id": "de.translate.3",
+    "lang": "de",
+    "cat": "translate",
+    "out": "ru",
+    "say": "Schreib auf Russisch. Katja, vielen Dank für das Geschenk, es ist wunderschön.",
+    "expect": [
+      "Катя, спасибо большое за подарок, он прекрасный.",
+      "Катя, большое спасибо за подарок, он очень красивый.",
+      "Катя, спасибо огромное за подарок, он чудесный."
+    ],
+    "must": [
+      "Катя",
+      "подарок"
+    ],
+    "mustNot": [
+      "Schreib",
+      "Katja"
+    ]
+  },
+  {
+    "id": "de.translate.4",
+    "lang": "de",
+    "cat": "translate",
+    "out": "fr",
+    "say": "Übersetze ins Französische. Marie, wir sehen uns am Samstag im Café.",
+    "expect": [
+      "Marie, on se voit samedi au café.",
+      "Marie, nous nous voyons samedi au café.",
+      "Marie, rendez-vous samedi au café."
+    ],
+    "must": [
+      "Marie",
+      "samedi",
+      "café"
+    ],
+    "mustNot": [
+      "Übersetze",
+      "Französisch"
+    ]
+  },
+  {
+    "id": "de.translate.5",
+    "lang": "de",
+    "cat": "translate",
+    "out": "es",
+    "say": "Schreib auf Spanisch. Carlos, der Bericht muss bis Donnerstag fertig sein.",
+    "expect": [
+      "Carlos, el informe tiene que estar listo para el jueves.",
+      "Carlos, el informe debe estar terminado antes del jueves.",
+      "Carlos, el informe tiene que estar terminado para el jueves."
+    ],
+    "must": [
+      "Carlos",
+      "informe",
+      "jueves"
+    ],
+    "mustNot": [
+      "Schreib",
+      "Spanisch"
+    ]
+  },
+  {
+    "id": "de.translate.6",
+    "lang": "de",
+    "cat": "translate",
+    "out": "pt",
+    "say": "Schreib auf Portugiesisch. Ana, kannst du heute die Kinder von der Schule abholen?",
+    "expect": [
+      "Ana, você pode buscar as crianças na escola hoje?",
+      "Ana, você pode pegar as crianças na escola hoje?",
+      "Anna, você pode buscar as crianças na escola hoje?",
+      "Anna, você pode pegar as crianças na escola hoje?"
+    ],
+    "must": [
+      "An",
+      "escola",
+      "hoje"
+    ],
+    "mustNot": [
+      "Schreib",
+      "Portugiesisch"
+    ]
+  },
+  {
+    "id": "de.translate.7",
+    "lang": "de",
+    "cat": "translate",
+    "out": "it",
+    "say": "Schreib auf Italienisch. Giulia, danke für das Abendessen gestern, die Lasagne war fantastisch.",
+    "expect": [
+      "Giulia, grazie per la cena di ieri, la lasagna era fantastica.",
+      "Giulia, grazie per la cena di ieri, le lasagne erano fantastiche."
+    ],
+    "must": [
+      "Giulia",
+      "grazie",
+      "cena",
+      "ieri",
+      "lasagn"
+    ],
+    "mustNot": [
+      "Schreib",
+      "Italienisch"
+    ]
+  },
+  {
+    "id": "de.command.1",
+    "lang": "de",
+    "cat": "command",
+    "mode": "command",
+    "selection": "hey, schick mir mal schnell den bericht, der chef nervt schon",
+    "say": "Mach das formeller.",
+    "expect": [],
+    "must": [
+      "Bericht"
+    ],
+    "mustNot": [
+      "nervt",
+      "Mach das formeller"
+    ],
+    "out": "de",
+    "variants": [
+      "quiet"
+    ]
+  },
+  {
+    "id": "de.command.2",
+    "lang": "de",
+    "cat": "command",
+    "mode": "command",
+    "selection": "Wir treffen uns am Mittwoch um 15:00 Uhr im Büro in der Friedrichstraße, um das Budget für das nächste Quartal, den Einstellungsplan und den Start der neuen Werbekampagne zu besprechen.",
+    "say": "Kürzer, bitte.",
+    "expect": [],
+    "must": [
+      "Mittwoch",
+      "15"
+    ],
+    "mustNot": [
+      "Kürzer"
+    ],
+    "out": "de"
+  },
+  {
+    "id": "de.command.3",
+    "lang": "de",
+    "cat": "command",
+    "mode": "command",
+    "selection": "Ich habe gestern mit den Kunde gesprochen und er hat gesagt das er morgen kommen wird.",
+    "say": "Korrigiere die Grammatik.",
+    "expect": [
+      "Ich habe gestern mit dem Kunden gesprochen, und er hat gesagt, dass er morgen kommen wird.",
+      "Ich habe gestern mit dem Kunden gesprochen und er hat gesagt, dass er morgen kommen wird.",
+      "Ich habe gestern mit dem Kunden gesprochen und er hat gesagt, dass er morgen kommt."
+    ],
+    "must": [
+      "dem Kunden",
+      "dass er morgen"
+    ],
+    "mustNot": [
+      "den Kunde",
+      "Korrigiere"
+    ],
+    "out": "de"
+  }
+]

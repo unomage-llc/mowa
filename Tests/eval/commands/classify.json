@@ -1,0 +1,2178 @@
+[
+ {
+  "id": "en.c1",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "Make it more formal.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "en.c2",
+  "lang": "en",
+  "selection": "We will deliver the project on Friday.",
+  "say": "Translate to Polish.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "en.c3",
+  "lang": "en",
+  "selection": "Meeting moved to 4 pm",
+  "say": "Shorter.",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "en.c4",
+  "lang": "en",
+  "selection": "The quick brown fox jumps over the lazy dog.",
+  "say": "Fix the grammar.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "en.c5",
+  "lang": "en",
+  "selection": "thanks for ur help yesterday",
+  "say": "Rewrite this in a friendlier tone.",
+  "command": true,
+  "labels": [
+   "CASUAL|POLITE"
+  ]
+ },
+ {
+  "id": "en.c6",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "Turn it into a bullet list.",
+  "command": true,
+  "labels": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "en.c7",
+  "lang": "en",
+  "selection": "We will deliver the project on Friday.",
+  "say": "Summarize it in one sentence.",
+  "command": true,
+  "labels": [
+   "SUMMARY"
+  ]
+ },
+ {
+  "id": "en.c8",
+  "lang": "en",
+  "selection": "Meeting moved to 4 pm",
+  "say": "Can you make this sound more professional?",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "en.c9",
+  "lang": "en",
+  "selection": "The quick brown fox jumps over the lazy dog.",
+  "say": "In German, please.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "en.c10",
+  "lang": "en",
+  "selection": "thanks for ur help yesterday",
+  "say": "Make it longer.",
+  "command": true,
+  "labels": [
+   "LONGER"
+  ]
+ },
+ {
+  "id": "en.c11",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "Correct the spelling.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "en.c12",
+  "lang": "en",
+  "selection": "We will deliver the project on Friday.",
+  "say": "More polite.",
+  "command": true,
+  "labels": [
+   "POLITE"
+  ]
+ },
+ {
+  "id": "en.c13",
+  "lang": "en",
+  "selection": "Meeting moved to 4 pm",
+  "say": "Put it in Russian.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "en.c14",
+  "lang": "en",
+  "selection": "The quick brown fox jumps over the lazy dog.",
+  "say": "Simplify this.",
+  "command": true,
+  "labels": [
+   "SIMPLIFY"
+  ]
+ },
+ {
+  "id": "en.c15",
+  "lang": "en",
+  "selection": "thanks for ur help yesterday",
+  "say": "Rephrase it.",
+  "command": true,
+  "labels": [
+   "REPHRASE"
+  ]
+ },
+ {
+  "id": "en.c16",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "Less formal.",
+  "command": true,
+  "labels": [
+   "CASUAL"
+  ]
+ },
+ {
+  "id": "en.t1",
+  "lang": "en",
+  "selection": "We will deliver the project on Friday.",
+  "say": "We will deliver the project on Monday.",
+  "command": false
+ },
+ {
+  "id": "en.t2",
+  "lang": "en",
+  "selection": "Meeting moved to 4 pm",
+  "say": "Thursday.",
+  "command": false
+ },
+ {
+  "id": "en.t3",
+  "lang": "en",
+  "selection": "The quick brown fox jumps over the lazy dog.",
+  "say": "Thanks a lot for your help yesterday, it really saved me.",
+  "command": false
+ },
+ {
+  "id": "en.t4",
+  "lang": "en",
+  "selection": "thanks for ur help yesterday",
+  "say": "Make it at 5 pm instead, if that works for you.",
+  "command": false
+ },
+ {
+  "id": "en.t5",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "Fix the login bug before the release.",
+  "command": false
+ },
+ {
+  "id": "en.t6",
+  "lang": "en",
+  "selection": "We will deliver the project on Friday.",
+  "say": "Translation costs are included in the budget.",
+  "command": false
+ },
+ {
+  "id": "en.t7",
+  "lang": "en",
+  "selection": "Meeting moved to 4 pm",
+  "say": "Shorter meetings are better for everyone.",
+  "command": false
+ },
+ {
+  "id": "en.t8",
+  "lang": "en",
+  "selection": "The quick brown fox jumps over the lazy dog.",
+  "say": "Can you send me the report by noon?",
+  "command": false
+ },
+ {
+  "id": "en.t9",
+  "lang": "en",
+  "selection": "thanks for ur help yesterday",
+  "say": "The quick red fox.",
+  "command": false
+ },
+ {
+  "id": "en.t10",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "Let me rewrite the intro tonight and send it to you.",
+  "command": false
+ },
+ {
+  "id": "en.t11",
+  "lang": "en",
+  "selection": "We will deliver the project on Friday.",
+  "say": "Polish customers pay in złoty.",
+  "command": false
+ },
+ {
+  "id": "en.t12",
+  "lang": "en",
+  "selection": "Meeting moved to 4 pm",
+  "say": "I'll correct the invoice tomorrow.",
+  "command": false
+ },
+ {
+  "id": "en.t13",
+  "lang": "en",
+  "selection": "The quick brown fox jumps over the lazy dog.",
+  "say": "Summary: we're on track.",
+  "command": false
+ },
+ {
+  "id": "en.t14",
+  "lang": "en",
+  "selection": "thanks for ur help yesterday",
+  "say": "More details are in the attached file.",
+  "command": false
+ },
+ {
+  "id": "en.t15",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "No worries, see you tomorrow.",
+  "command": false
+ },
+ {
+  "id": "en.t16",
+  "lang": "en",
+  "selection": "We will deliver the project on Friday.",
+  "say": "Okay.",
+  "command": false
+ },
+ {
+  "id": "pl.c1",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "Zrób to bardziej formalnie.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "pl.c2",
+  "lang": "pl",
+  "selection": "Projekt oddamy w piątek.",
+  "say": "Przetłumacz na angielski.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pl.c3",
+  "lang": "pl",
+  "selection": "Spotkanie przesunięte na 16",
+  "say": "Skróć to.",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "pl.c4",
+  "lang": "pl",
+  "selection": "dzięki za pomoc wczoraj",
+  "say": "Popraw błędy.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "pl.c5",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "Napisz to grzeczniej.",
+  "command": true,
+  "labels": [
+   "POLITE"
+  ]
+ },
+ {
+  "id": "pl.c6",
+  "lang": "pl",
+  "selection": "Projekt oddamy w piątek.",
+  "say": "Zamień to na listę.",
+  "command": true,
+  "labels": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "pl.c7",
+  "lang": "pl",
+  "selection": "Spotkanie przesunięte na 16",
+  "say": "Streść w jednym zdaniu.",
+  "command": true,
+  "labels": [
+   "SUMMARY"
+  ]
+ },
+ {
+  "id": "pl.c8",
+  "lang": "pl",
+  "selection": "dzięki za pomoc wczoraj",
+  "say": "Po rosyjsku.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pl.c9",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "Przepisz to bardziej przyjaźnie.",
+  "command": true,
+  "labels": [
+   "CASUAL|POLITE"
+  ]
+ },
+ {
+  "id": "pl.c10",
+  "lang": "pl",
+  "selection": "Projekt oddamy w piątek.",
+  "say": "Możesz to skrócić?",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "pl.c11",
+  "lang": "pl",
+  "selection": "Spotkanie przesunięte na 16",
+  "say": "Bardziej profesjonalnie.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "pl.c12",
+  "lang": "pl",
+  "selection": "dzięki za pomoc wczoraj",
+  "say": "Rozwiń to.",
+  "command": true,
+  "labels": [
+   "LONGER"
+  ]
+ },
+ {
+  "id": "pl.c13",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "Uprość ten tekst.",
+  "command": true,
+  "labels": [
+   "SIMPLIFY"
+  ]
+ },
+ {
+  "id": "pl.c14",
+  "lang": "pl",
+  "selection": "Projekt oddamy w piątek.",
+  "say": "Popraw interpunkcję.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "pl.c15",
+  "lang": "pl",
+  "selection": "Spotkanie przesunięte na 16",
+  "say": "Na niemiecki.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pl.c16",
+  "lang": "pl",
+  "selection": "dzięki za pomoc wczoraj",
+  "say": "Mniej oficjalnie.",
+  "command": true,
+  "labels": [
+   "CASUAL"
+  ]
+ },
+ {
+  "id": "pl.t1",
+  "lang": "pl",
+  "selection": "Projekt oddamy w piątek.",
+  "say": "Projekt oddamy w poniedziałek.",
+  "command": false
+ },
+ {
+  "id": "pl.t2",
+  "lang": "pl",
+  "selection": "Spotkanie przesunięte na 16",
+  "say": "W czwartek.",
+  "command": false
+ },
+ {
+  "id": "pl.t3",
+  "lang": "pl",
+  "selection": "dzięki za pomoc wczoraj",
+  "say": "Dzięki wielkie za wczorajszą pomoc.",
+  "command": false
+ },
+ {
+  "id": "pl.t4",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "Popraw mi ten raport do jutra, dobrze?",
+  "command": false
+ },
+ {
+  "id": "pl.t5",
+  "lang": "pl",
+  "selection": "Projekt oddamy w piątek.",
+  "say": "Przetłumaczony dokument wyślę wieczorem.",
+  "command": false
+ },
+ {
+  "id": "pl.t6",
+  "lang": "pl",
+  "selection": "Spotkanie przesunięte na 16",
+  "say": "Krótsze spotkania są lepsze.",
+  "command": false
+ },
+ {
+  "id": "pl.t7",
+  "lang": "pl",
+  "selection": "dzięki za pomoc wczoraj",
+  "say": "Możesz wysłać raport do południa?",
+  "command": false
+ },
+ {
+  "id": "pl.t8",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "Zrobię to jutro rano.",
+  "command": false
+ },
+ {
+  "id": "pl.t9",
+  "lang": "pl",
+  "selection": "Projekt oddamy w piątek.",
+  "say": "Polska wersja jest gotowa.",
+  "command": false
+ },
+ {
+  "id": "pl.t10",
+  "lang": "pl",
+  "selection": "Spotkanie przesunięte na 16",
+  "say": "Spotkanie przesunięte na 17.",
+  "command": false
+ },
+ {
+  "id": "pl.t11",
+  "lang": "pl",
+  "selection": "dzięki za pomoc wczoraj",
+  "say": "Nie ma sprawy, do jutra.",
+  "command": false
+ },
+ {
+  "id": "pl.t12",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "Dobra.",
+  "command": false
+ },
+ {
+  "id": "pl.t13",
+  "lang": "pl",
+  "selection": "Projekt oddamy w piątek.",
+  "say": "Skróciłem prezentację do dziesięciu slajdów.",
+  "command": false
+ },
+ {
+  "id": "pl.t14",
+  "lang": "pl",
+  "selection": "Spotkanie przesunięte na 16",
+  "say": "Mamy problem z logowaniem.",
+  "command": false
+ },
+ {
+  "id": "pl.t15",
+  "lang": "pl",
+  "selection": "dzięki za pomoc wczoraj",
+  "say": "Proszę o fakturę na firmę.",
+  "command": false
+ },
+ {
+  "id": "pl.t16",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "Zamieniłem się z Kasią na dyżur.",
+  "command": false
+ },
+ {
+  "id": "ru.c1",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "Сделай более официально.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "ru.c2",
+  "lang": "ru",
+  "selection": "Мы сдадим проект в пятницу.",
+  "say": "Переведи на английский.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "ru.c3",
+  "lang": "ru",
+  "selection": "Встречу перенесли на 16",
+  "say": "Сократи.",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "ru.c4",
+  "lang": "ru",
+  "selection": "спасибо за помощь вчера",
+  "say": "Исправь ошибки.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "ru.c5",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "Перепиши вежливее.",
+  "command": true,
+  "labels": [
+   "POLITE"
+  ]
+ },
+ {
+  "id": "ru.c6",
+  "lang": "ru",
+  "selection": "Мы сдадим проект в пятницу.",
+  "say": "Сделай из этого список.",
+  "command": true,
+  "labels": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "ru.c7",
+  "lang": "ru",
+  "selection": "Встречу перенесли на 16",
+  "say": "Перескажи в одном предложении.",
+  "command": true,
+  "labels": [
+   "SUMMARY"
+  ]
+ },
+ {
+  "id": "ru.c8",
+  "lang": "ru",
+  "selection": "спасибо за помощь вчера",
+  "say": "На польском.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "ru.c9",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "По-немецки.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "ru.c10",
+  "lang": "ru",
+  "selection": "Мы сдадим проект в пятницу.",
+  "say": "Сделай длиннее.",
+  "command": true,
+  "labels": [
+   "LONGER"
+  ]
+ },
+ {
+  "id": "ru.c11",
+  "lang": "ru",
+  "selection": "Встречу перенесли на 16",
+  "say": "Можешь сделать покороче?",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "ru.c12",
+  "lang": "ru",
+  "selection": "спасибо за помощь вчера",
+  "say": "Перефразируй.",
+  "command": true,
+  "labels": [
+   "REPHRASE"
+  ]
+ },
+ {
+  "id": "ru.c13",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "Сделай проще.",
+  "command": true,
+  "labels": [
+   "SIMPLIFY"
+  ]
+ },
+ {
+  "id": "ru.c14",
+  "lang": "ru",
+  "selection": "Мы сдадим проект в пятницу.",
+  "say": "Более дружелюбно.",
+  "command": true,
+  "labels": [
+   "CASUAL|POLITE"
+  ]
+ },
+ {
+  "id": "ru.c15",
+  "lang": "ru",
+  "selection": "Встречу перенесли на 16",
+  "say": "Сделай списком.",
+  "command": true,
+  "labels": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "ru.c16",
+  "lang": "ru",
+  "selection": "спасибо за помощь вчера",
+  "say": "Менее формально.",
+  "command": true,
+  "labels": [
+   "CASUAL"
+  ]
+ },
+ {
+  "id": "ru.t1",
+  "lang": "ru",
+  "selection": "Мы сдадим проект в пятницу.",
+  "say": "Мы сдадим проект в понедельник.",
+  "command": false
+ },
+ {
+  "id": "ru.t2",
+  "lang": "ru",
+  "selection": "Встречу перенесли на 16",
+  "say": "В четверг.",
+  "command": false
+ },
+ {
+  "id": "ru.t3",
+  "lang": "ru",
+  "selection": "спасибо за помощь вчера",
+  "say": "Огромное спасибо за вчерашнюю помощь.",
+  "command": false
+ },
+ {
+  "id": "ru.t4",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "Исправь, пожалуйста, отчёт до завтра, ладно?",
+  "command": false
+ },
+ {
+  "id": "ru.t5",
+  "lang": "ru",
+  "selection": "Мы сдадим проект в пятницу.",
+  "say": "Переведённый договор пришлю вечером.",
+  "command": false
+ },
+ {
+  "id": "ru.t6",
+  "lang": "ru",
+  "selection": "Встречу перенесли на 16",
+  "say": "Короткие встречи лучше для всех.",
+  "command": false
+ },
+ {
+  "id": "ru.t7",
+  "lang": "ru",
+  "selection": "спасибо за помощь вчера",
+  "say": "Можешь прислать отчёт до обеда?",
+  "command": false
+ },
+ {
+  "id": "ru.t8",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "Сделаю это завтра утром.",
+  "command": false
+ },
+ {
+  "id": "ru.t9",
+  "lang": "ru",
+  "selection": "Мы сдадим проект в пятницу.",
+  "say": "Польская версия готова.",
+  "command": false
+ },
+ {
+  "id": "ru.t10",
+  "lang": "ru",
+  "selection": "Встречу перенесли на 16",
+  "say": "Встречу перенесли на 17.",
+  "command": false
+ },
+ {
+  "id": "ru.t11",
+  "lang": "ru",
+  "selection": "спасибо за помощь вчера",
+  "say": "Без проблем, до завтра.",
+  "command": false
+ },
+ {
+  "id": "ru.t12",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "Хорошо.",
+  "command": false
+ },
+ {
+  "id": "ru.t13",
+  "lang": "ru",
+  "selection": "Мы сдадим проект в пятницу.",
+  "say": "Я сократил презентацию до десяти слайдов.",
+  "command": false
+ },
+ {
+  "id": "ru.t14",
+  "lang": "ru",
+  "selection": "Встречу перенесли на 16",
+  "say": "У нас проблема со входом.",
+  "command": false
+ },
+ {
+  "id": "ru.t15",
+  "lang": "ru",
+  "selection": "спасибо за помощь вчера",
+  "say": "Перепишу введение вечером и пришлю.",
+  "command": false
+ },
+ {
+  "id": "ru.t16",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "Английский у него отличный.",
+  "command": false
+ },
+ {
+  "id": "de.c1",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "Mach es formeller.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "de.c2",
+  "lang": "de",
+  "selection": "Wir liefern das Projekt am Freitag.",
+  "say": "Übersetze ins Englische.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "de.c3",
+  "lang": "de",
+  "selection": "Meeting auf 16 Uhr verschoben",
+  "say": "Kürze das.",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "de.c4",
+  "lang": "de",
+  "selection": "danke für die hilfe gestern",
+  "say": "Korrigiere die Fehler.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "de.c5",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "Schreib es freundlicher um.",
+  "command": true,
+  "labels": [
+   "CASUAL|POLITE"
+  ]
+ },
+ {
+  "id": "de.c6",
+  "lang": "de",
+  "selection": "Wir liefern das Projekt am Freitag.",
+  "say": "Mach eine Liste daraus.",
+  "command": true,
+  "labels": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "de.c7",
+  "lang": "de",
+  "selection": "Meeting auf 16 Uhr verschoben",
+  "say": "Fasse es in einem Satz zusammen.",
+  "command": true,
+  "labels": [
+   "SUMMARY"
+  ]
+ },
+ {
+  "id": "de.c8",
+  "lang": "de",
+  "selection": "danke für die hilfe gestern",
+  "say": "Auf Polnisch.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "de.c9",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "Bitte auf Russisch.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "de.c10",
+  "lang": "de",
+  "selection": "Wir liefern das Projekt am Freitag.",
+  "say": "Mach es länger.",
+  "command": true,
+  "labels": [
+   "LONGER"
+  ]
+ },
+ {
+  "id": "de.c11",
+  "lang": "de",
+  "selection": "Meeting auf 16 Uhr verschoben",
+  "say": "Kannst du das kürzer machen?",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "de.c12",
+  "lang": "de",
+  "selection": "danke für die hilfe gestern",
+  "say": "Formuliere es um.",
+  "command": true,
+  "labels": [
+   "REPHRASE"
+  ]
+ },
+ {
+  "id": "de.c13",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "Vereinfache den Text.",
+  "command": true,
+  "labels": [
+   "SIMPLIFY"
+  ]
+ },
+ {
+  "id": "de.c14",
+  "lang": "de",
+  "selection": "Wir liefern das Projekt am Freitag.",
+  "say": "Höflicher.",
+  "command": true,
+  "labels": [
+   "POLITE"
+  ]
+ },
+ {
+  "id": "de.c15",
+  "lang": "de",
+  "selection": "Meeting auf 16 Uhr verschoben",
+  "say": "Professioneller, bitte.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "de.c16",
+  "lang": "de",
+  "selection": "danke für die hilfe gestern",
+  "say": "Weniger förmlich.",
+  "command": true,
+  "labels": [
+   "CASUAL"
+  ]
+ },
+ {
+  "id": "de.t1",
+  "lang": "de",
+  "selection": "Wir liefern das Projekt am Freitag.",
+  "say": "Wir liefern das Projekt am Montag.",
+  "command": false
+ },
+ {
+  "id": "de.t2",
+  "lang": "de",
+  "selection": "Meeting auf 16 Uhr verschoben",
+  "say": "Am Donnerstag.",
+  "command": false
+ },
+ {
+  "id": "de.t3",
+  "lang": "de",
+  "selection": "danke für die hilfe gestern",
+  "say": "Vielen Dank für deine Hilfe gestern.",
+  "command": false
+ },
+ {
+  "id": "de.t4",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "Korrigier bitte den Bericht bis morgen, okay?",
+  "command": false
+ },
+ {
+  "id": "de.t5",
+  "lang": "de",
+  "selection": "Wir liefern das Projekt am Freitag.",
+  "say": "Die übersetzte Version schicke ich heute Abend.",
+  "command": false
+ },
+ {
+  "id": "de.t6",
+  "lang": "de",
+  "selection": "Meeting auf 16 Uhr verschoben",
+  "say": "Kürzere Meetings sind besser für alle.",
+  "command": false
+ },
+ {
+  "id": "de.t7",
+  "lang": "de",
+  "selection": "danke für die hilfe gestern",
+  "say": "Kannst du mir den Bericht bis Mittag schicken?",
+  "command": false
+ },
+ {
+  "id": "de.t8",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "Ich mache das morgen früh.",
+  "command": false
+ },
+ {
+  "id": "de.t9",
+  "lang": "de",
+  "selection": "Wir liefern das Projekt am Freitag.",
+  "say": "Die polnische Version ist fertig.",
+  "command": false
+ },
+ {
+  "id": "de.t10",
+  "lang": "de",
+  "selection": "Meeting auf 16 Uhr verschoben",
+  "say": "Meeting auf 17 Uhr verschoben.",
+  "command": false
+ },
+ {
+  "id": "de.t11",
+  "lang": "de",
+  "selection": "danke für die hilfe gestern",
+  "say": "Kein Problem, bis morgen.",
+  "command": false
+ },
+ {
+  "id": "de.t12",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "Okay.",
+  "command": false
+ },
+ {
+  "id": "de.t13",
+  "lang": "de",
+  "selection": "Wir liefern das Projekt am Freitag.",
+  "say": "Ich habe die Präsentation auf zehn Folien gekürzt.",
+  "command": false
+ },
+ {
+  "id": "de.t14",
+  "lang": "de",
+  "selection": "Meeting auf 16 Uhr verschoben",
+  "say": "Wir haben ein Problem mit dem Login.",
+  "command": false
+ },
+ {
+  "id": "de.t15",
+  "lang": "de",
+  "selection": "danke für die hilfe gestern",
+  "say": "Mach dir keine Sorgen.",
+  "command": false
+ },
+ {
+  "id": "de.t16",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "Englisch spricht er sehr gut.",
+  "command": false
+ },
+ {
+  "id": "es.c1",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "Hazlo más formal.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "es.c2",
+  "lang": "es",
+  "selection": "Entregaremos el proyecto el viernes.",
+  "say": "Traduce al inglés.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "es.c3",
+  "lang": "es",
+  "selection": "Reunión movida a las 16",
+  "say": "Acórtalo.",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "es.c4",
+  "lang": "es",
+  "selection": "gracias por la ayuda ayer",
+  "say": "Corrige los errores.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "es.c5",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "Reescríbelo de forma más amable.",
+  "command": true,
+  "labels": [
+   "CASUAL|POLITE"
+  ]
+ },
+ {
+  "id": "es.c6",
+  "lang": "es",
+  "selection": "Entregaremos el proyecto el viernes.",
+  "say": "Conviértelo en una lista.",
+  "command": true,
+  "labels": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "es.c7",
+  "lang": "es",
+  "selection": "Reunión movida a las 16",
+  "say": "Resúmelo en una frase.",
+  "command": true,
+  "labels": [
+   "SUMMARY"
+  ]
+ },
+ {
+  "id": "es.c8",
+  "lang": "es",
+  "selection": "gracias por la ayuda ayer",
+  "say": "En polaco.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "es.c9",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "En alemán, por favor.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "es.c10",
+  "lang": "es",
+  "selection": "Entregaremos el proyecto el viernes.",
+  "say": "Hazlo más largo.",
+  "command": true,
+  "labels": [
+   "LONGER"
+  ]
+ },
+ {
+  "id": "es.c11",
+  "lang": "es",
+  "selection": "Reunión movida a las 16",
+  "say": "¿Puedes hacerlo más corto?",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "es.c12",
+  "lang": "es",
+  "selection": "gracias por la ayuda ayer",
+  "say": "Reformúlalo.",
+  "command": true,
+  "labels": [
+   "REPHRASE"
+  ]
+ },
+ {
+  "id": "es.c13",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "Simplifica el texto.",
+  "command": true,
+  "labels": [
+   "SIMPLIFY"
+  ]
+ },
+ {
+  "id": "es.c14",
+  "lang": "es",
+  "selection": "Entregaremos el proyecto el viernes.",
+  "say": "Más educado.",
+  "command": true,
+  "labels": [
+   "POLITE"
+  ]
+ },
+ {
+  "id": "es.c15",
+  "lang": "es",
+  "selection": "Reunión movida a las 16",
+  "say": "Más profesional.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "es.c16",
+  "lang": "es",
+  "selection": "gracias por la ayuda ayer",
+  "say": "Menos formal.",
+  "command": true,
+  "labels": [
+   "CASUAL"
+  ]
+ },
+ {
+  "id": "es.t1",
+  "lang": "es",
+  "selection": "Entregaremos el proyecto el viernes.",
+  "say": "Entregaremos el proyecto el lunes.",
+  "command": false
+ },
+ {
+  "id": "es.t2",
+  "lang": "es",
+  "selection": "Reunión movida a las 16",
+  "say": "El jueves.",
+  "command": false
+ },
+ {
+  "id": "es.t3",
+  "lang": "es",
+  "selection": "gracias por la ayuda ayer",
+  "say": "Muchas gracias por tu ayuda de ayer.",
+  "command": false
+ },
+ {
+  "id": "es.t4",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "Corrige el informe para mañana, ¿vale?",
+  "command": false
+ },
+ {
+  "id": "es.t5",
+  "lang": "es",
+  "selection": "Entregaremos el proyecto el viernes.",
+  "say": "La versión traducida te la mando esta noche.",
+  "command": false
+ },
+ {
+  "id": "es.t6",
+  "lang": "es",
+  "selection": "Reunión movida a las 16",
+  "say": "Las reuniones cortas son mejores para todos.",
+  "command": false
+ },
+ {
+  "id": "es.t7",
+  "lang": "es",
+  "selection": "gracias por la ayuda ayer",
+  "say": "¿Puedes mandarme el informe antes del mediodía?",
+  "command": false
+ },
+ {
+  "id": "es.t8",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "Lo hago mañana por la mañana.",
+  "command": false
+ },
+ {
+  "id": "es.t9",
+  "lang": "es",
+  "selection": "Entregaremos el proyecto el viernes.",
+  "say": "La versión polaca está lista.",
+  "command": false
+ },
+ {
+  "id": "es.t10",
+  "lang": "es",
+  "selection": "Reunión movida a las 16",
+  "say": "Reunión movida a las 17.",
+  "command": false
+ },
+ {
+  "id": "es.t11",
+  "lang": "es",
+  "selection": "gracias por la ayuda ayer",
+  "say": "No pasa nada, hasta mañana.",
+  "command": false
+ },
+ {
+  "id": "es.t12",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "Vale.",
+  "command": false
+ },
+ {
+  "id": "es.t13",
+  "lang": "es",
+  "selection": "Entregaremos el proyecto el viernes.",
+  "say": "He acortado la presentación a diez diapositivas.",
+  "command": false
+ },
+ {
+  "id": "es.t14",
+  "lang": "es",
+  "selection": "Reunión movida a las 16",
+  "say": "Tenemos un problema con el inicio de sesión.",
+  "command": false
+ },
+ {
+  "id": "es.t15",
+  "lang": "es",
+  "selection": "gracias por la ayuda ayer",
+  "say": "Hazme un favor y llama a Marta.",
+  "command": false
+ },
+ {
+  "id": "es.t16",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "Su inglés es muy bueno.",
+  "command": false
+ },
+ {
+  "id": "fr.c1",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "Rends-le plus formel.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "fr.c2",
+  "lang": "fr",
+  "selection": "Nous livrerons le projet vendredi.",
+  "say": "Traduis en anglais.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "fr.c3",
+  "lang": "fr",
+  "selection": "Réunion déplacée à 16 h",
+  "say": "Raccourcis.",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "fr.c4",
+  "lang": "fr",
+  "selection": "merci pour ton aide hier",
+  "say": "Corrige les fautes.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "fr.c5",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "Réécris-le de façon plus aimable.",
+  "command": true,
+  "labels": [
+   "CASUAL|POLITE"
+  ]
+ },
+ {
+  "id": "fr.c6",
+  "lang": "fr",
+  "selection": "Nous livrerons le projet vendredi.",
+  "say": "Transforme-le en liste.",
+  "command": true,
+  "labels": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "fr.c7",
+  "lang": "fr",
+  "selection": "Réunion déplacée à 16 h",
+  "say": "Résume en une phrase.",
+  "command": true,
+  "labels": [
+   "SUMMARY"
+  ]
+ },
+ {
+  "id": "fr.c8",
+  "lang": "fr",
+  "selection": "merci pour ton aide hier",
+  "say": "En polonais.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "fr.c9",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "En allemand, s'il te plaît.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "fr.c10",
+  "lang": "fr",
+  "selection": "Nous livrerons le projet vendredi.",
+  "say": "Rends-le plus long.",
+  "command": true,
+  "labels": [
+   "LONGER"
+  ]
+ },
+ {
+  "id": "fr.c11",
+  "lang": "fr",
+  "selection": "Réunion déplacée à 16 h",
+  "say": "Tu peux le raccourcir ?",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "fr.c12",
+  "lang": "fr",
+  "selection": "merci pour ton aide hier",
+  "say": "Reformule.",
+  "command": true,
+  "labels": [
+   "REPHRASE"
+  ]
+ },
+ {
+  "id": "fr.c13",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "Simplifie le texte.",
+  "command": true,
+  "labels": [
+   "SIMPLIFY"
+  ]
+ },
+ {
+  "id": "fr.c14",
+  "lang": "fr",
+  "selection": "Nous livrerons le projet vendredi.",
+  "say": "Plus poli.",
+  "command": true,
+  "labels": [
+   "POLITE"
+  ]
+ },
+ {
+  "id": "fr.c15",
+  "lang": "fr",
+  "selection": "Réunion déplacée à 16 h",
+  "say": "Plus professionnel.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "fr.c16",
+  "lang": "fr",
+  "selection": "merci pour ton aide hier",
+  "say": "Moins formel.",
+  "command": true,
+  "labels": [
+   "CASUAL"
+  ]
+ },
+ {
+  "id": "fr.t1",
+  "lang": "fr",
+  "selection": "Nous livrerons le projet vendredi.",
+  "say": "Nous livrerons le projet lundi.",
+  "command": false
+ },
+ {
+  "id": "fr.t2",
+  "lang": "fr",
+  "selection": "Réunion déplacée à 16 h",
+  "say": "Jeudi.",
+  "command": false
+ },
+ {
+  "id": "fr.t3",
+  "lang": "fr",
+  "selection": "merci pour ton aide hier",
+  "say": "Merci beaucoup pour ton aide d'hier.",
+  "command": false
+ },
+ {
+  "id": "fr.t4",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "Corrige le rapport pour demain, d'accord ?",
+  "command": false
+ },
+ {
+  "id": "fr.t5",
+  "lang": "fr",
+  "selection": "Nous livrerons le projet vendredi.",
+  "say": "Je t'envoie la version traduite ce soir.",
+  "command": false
+ },
+ {
+  "id": "fr.t6",
+  "lang": "fr",
+  "selection": "Réunion déplacée à 16 h",
+  "say": "Les réunions courtes sont mieux pour tout le monde.",
+  "command": false
+ },
+ {
+  "id": "fr.t7",
+  "lang": "fr",
+  "selection": "merci pour ton aide hier",
+  "say": "Tu peux m'envoyer le rapport avant midi ?",
+  "command": false
+ },
+ {
+  "id": "fr.t8",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "Je le fais demain matin.",
+  "command": false
+ },
+ {
+  "id": "fr.t9",
+  "lang": "fr",
+  "selection": "Nous livrerons le projet vendredi.",
+  "say": "La version polonaise est prête.",
+  "command": false
+ },
+ {
+  "id": "fr.t10",
+  "lang": "fr",
+  "selection": "Réunion déplacée à 16 h",
+  "say": "Réunion déplacée à 17 h.",
+  "command": false
+ },
+ {
+  "id": "fr.t11",
+  "lang": "fr",
+  "selection": "merci pour ton aide hier",
+  "say": "Pas de souci, à demain.",
+  "command": false
+ },
+ {
+  "id": "fr.t12",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "D'accord.",
+  "command": false
+ },
+ {
+  "id": "fr.t13",
+  "lang": "fr",
+  "selection": "Nous livrerons le projet vendredi.",
+  "say": "J'ai raccourci la présentation à dix diapositives.",
+  "command": false
+ },
+ {
+  "id": "fr.t14",
+  "lang": "fr",
+  "selection": "Réunion déplacée à 16 h",
+  "say": "On a un problème de connexion.",
+  "command": false
+ },
+ {
+  "id": "fr.t15",
+  "lang": "fr",
+  "selection": "merci pour ton aide hier",
+  "say": "Rends-moi service et appelle Marie.",
+  "command": false
+ },
+ {
+  "id": "fr.t16",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "Son anglais est très bon.",
+  "command": false
+ },
+ {
+  "id": "pt.c1",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "Deixe mais formal.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "pt.c2",
+  "lang": "pt",
+  "selection": "Vamos entregar o projeto na sexta.",
+  "say": "Traduza para o inglês.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pt.c3",
+  "lang": "pt",
+  "selection": "Reunião mudou para as 16h",
+  "say": "Encurte.",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "pt.c4",
+  "lang": "pt",
+  "selection": "obrigado pela ajuda ontem",
+  "say": "Corrija os erros.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "pt.c5",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "Reescreva de forma mais simpática.",
+  "command": true,
+  "labels": [
+   "CASUAL|POLITE"
+  ]
+ },
+ {
+  "id": "pt.c6",
+  "lang": "pt",
+  "selection": "Vamos entregar o projeto na sexta.",
+  "say": "Transforme em uma lista.",
+  "command": true,
+  "labels": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "pt.c7",
+  "lang": "pt",
+  "selection": "Reunião mudou para as 16h",
+  "say": "Resuma em uma frase.",
+  "command": true,
+  "labels": [
+   "SUMMARY"
+  ]
+ },
+ {
+  "id": "pt.c8",
+  "lang": "pt",
+  "selection": "obrigado pela ajuda ontem",
+  "say": "Em polonês.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pt.c9",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "Em alemão, por favor.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pt.c10",
+  "lang": "pt",
+  "selection": "Vamos entregar o projeto na sexta.",
+  "say": "Deixe mais longo.",
+  "command": true,
+  "labels": [
+   "LONGER"
+  ]
+ },
+ {
+  "id": "pt.c11",
+  "lang": "pt",
+  "selection": "Reunião mudou para as 16h",
+  "say": "Pode deixar mais curto?",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "pt.c12",
+  "lang": "pt",
+  "selection": "obrigado pela ajuda ontem",
+  "say": "Reformule.",
+  "command": true,
+  "labels": [
+   "REPHRASE"
+  ]
+ },
+ {
+  "id": "pt.c13",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "Simplifique o texto.",
+  "command": true,
+  "labels": [
+   "SIMPLIFY"
+  ]
+ },
+ {
+  "id": "pt.c14",
+  "lang": "pt",
+  "selection": "Vamos entregar o projeto na sexta.",
+  "say": "Mais educado.",
+  "command": true,
+  "labels": [
+   "POLITE"
+  ]
+ },
+ {
+  "id": "pt.c15",
+  "lang": "pt",
+  "selection": "Reunião mudou para as 16h",
+  "say": "Mais profissional.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "pt.c16",
+  "lang": "pt",
+  "selection": "obrigado pela ajuda ontem",
+  "say": "Menos formal.",
+  "command": true,
+  "labels": [
+   "CASUAL"
+  ]
+ },
+ {
+  "id": "pt.t1",
+  "lang": "pt",
+  "selection": "Vamos entregar o projeto na sexta.",
+  "say": "Vamos entregar o projeto na segunda.",
+  "command": false
+ },
+ {
+  "id": "pt.t2",
+  "lang": "pt",
+  "selection": "Reunião mudou para as 16h",
+  "say": "Na quinta.",
+  "command": false
+ },
+ {
+  "id": "pt.t3",
+  "lang": "pt",
+  "selection": "obrigado pela ajuda ontem",
+  "say": "Muito obrigado pela ajuda de ontem.",
+  "command": false
+ },
+ {
+  "id": "pt.t4",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "Corrija o relatório até amanhã, tá?",
+  "command": false
+ },
+ {
+  "id": "pt.t5",
+  "lang": "pt",
+  "selection": "Vamos entregar o projeto na sexta.",
+  "say": "Te mando a versão traduzida hoje à noite.",
+  "command": false
+ },
+ {
+  "id": "pt.t6",
+  "lang": "pt",
+  "selection": "Reunião mudou para as 16h",
+  "say": "Reuniões curtas são melhores para todos.",
+  "command": false
+ },
+ {
+  "id": "pt.t7",
+  "lang": "pt",
+  "selection": "obrigado pela ajuda ontem",
+  "say": "Pode me mandar o relatório até o meio-dia?",
+  "command": false
+ },
+ {
+  "id": "pt.t8",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "Faço isso amanhã de manhã.",
+  "command": false
+ },
+ {
+  "id": "pt.t9",
+  "lang": "pt",
+  "selection": "Vamos entregar o projeto na sexta.",
+  "say": "A versão polonesa está pronta.",
+  "command": false
+ },
+ {
+  "id": "pt.t10",
+  "lang": "pt",
+  "selection": "Reunião mudou para as 16h",
+  "say": "Reunião mudou para as 17h.",
+  "command": false
+ },
+ {
+  "id": "pt.t11",
+  "lang": "pt",
+  "selection": "obrigado pela ajuda ontem",
+  "say": "Sem problema, até amanhã.",
+  "command": false
+ },
+ {
+  "id": "pt.t12",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "Beleza.",
+  "command": false
+ },
+ {
+  "id": "pt.t13",
+  "lang": "pt",
+  "selection": "Vamos entregar o projeto na sexta.",
+  "say": "Encurtei a apresentação para dez slides.",
+  "command": false
+ },
+ {
+  "id": "pt.t14",
+  "lang": "pt",
+  "selection": "Reunião mudou para as 16h",
+  "say": "Temos um problema com o login.",
+  "command": false
+ },
+ {
+  "id": "pt.t15",
+  "lang": "pt",
+  "selection": "obrigado pela ajuda ontem",
+  "say": "Deixe a porta aberta, por favor.",
+  "command": false
+ },
+ {
+  "id": "pt.t16",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "O inglês dele é muito bom.",
+  "command": false
+ },
+ {
+  "id": "it.c1",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "Rendilo più formale.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "it.c2",
+  "lang": "it",
+  "selection": "Consegneremo il progetto venerdì.",
+  "say": "Traduci in inglese.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "it.c3",
+  "lang": "it",
+  "selection": "Riunione spostata alle 16",
+  "say": "Accorcia.",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "it.c4",
+  "lang": "it",
+  "selection": "grazie per l'aiuto ieri",
+  "say": "Correggi gli errori.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "it.c5",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "Riscrivilo in modo più gentile.",
+  "command": true,
+  "labels": [
+   "CASUAL|POLITE"
+  ]
+ },
+ {
+  "id": "it.c6",
+  "lang": "it",
+  "selection": "Consegneremo il progetto venerdì.",
+  "say": "Trasformalo in un elenco.",
+  "command": true,
+  "labels": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "it.c7",
+  "lang": "it",
+  "selection": "Riunione spostata alle 16",
+  "say": "Riassumi in una frase.",
+  "command": true,
+  "labels": [
+   "SUMMARY"
+  ]
+ },
+ {
+  "id": "it.c8",
+  "lang": "it",
+  "selection": "grazie per l'aiuto ieri",
+  "say": "In polacco.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "it.c9",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "In tedesco, per favore.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "it.c10",
+  "lang": "it",
+  "selection": "Consegneremo il progetto venerdì.",
+  "say": "Rendilo più lungo.",
+  "command": true,
+  "labels": [
+   "LONGER"
+  ]
+ },
+ {
+  "id": "it.c11",
+  "lang": "it",
+  "selection": "Riunione spostata alle 16",
+  "say": "Puoi accorciarlo?",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "it.c12",
+  "lang": "it",
+  "selection": "grazie per l'aiuto ieri",
+  "say": "Riformula.",
+  "command": true,
+  "labels": [
+   "REPHRASE"
+  ]
+ },
+ {
+  "id": "it.c13",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "Semplifica il testo.",
+  "command": true,
+  "labels": [
+   "SIMPLIFY"
+  ]
+ },
+ {
+  "id": "it.c14",
+  "lang": "it",
+  "selection": "Consegneremo il progetto venerdì.",
+  "say": "Più educato.",
+  "command": true,
+  "labels": [
+   "POLITE"
+  ]
+ },
+ {
+  "id": "it.c15",
+  "lang": "it",
+  "selection": "Riunione spostata alle 16",
+  "say": "Più professionale.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "it.c16",
+  "lang": "it",
+  "selection": "grazie per l'aiuto ieri",
+  "say": "Meno formale.",
+  "command": true,
+  "labels": [
+   "CASUAL"
+  ]
+ },
+ {
+  "id": "it.t1",
+  "lang": "it",
+  "selection": "Consegneremo il progetto venerdì.",
+  "say": "Consegneremo il progetto lunedì.",
+  "command": false
+ },
+ {
+  "id": "it.t2",
+  "lang": "it",
+  "selection": "Riunione spostata alle 16",
+  "say": "Giovedì.",
+  "command": false
+ },
+ {
+  "id": "it.t3",
+  "lang": "it",
+  "selection": "grazie per l'aiuto ieri",
+  "say": "Grazie mille per l'aiuto di ieri.",
+  "command": false
+ },
+ {
+  "id": "it.t4",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "Correggi il report entro domani, va bene?",
+  "command": false
+ },
+ {
+  "id": "it.t5",
+  "lang": "it",
+  "selection": "Consegneremo il progetto venerdì.",
+  "say": "Ti mando la versione tradotta stasera.",
+  "command": false
+ },
+ {
+  "id": "it.t6",
+  "lang": "it",
+  "selection": "Riunione spostata alle 16",
+  "say": "Le riunioni brevi sono migliori per tutti.",
+  "command": false
+ },
+ {
+  "id": "it.t7",
+  "lang": "it",
+  "selection": "grazie per l'aiuto ieri",
+  "say": "Puoi mandarmi il report entro mezzogiorno?",
+  "command": false
+ },
+ {
+  "id": "it.t8",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "Lo faccio domani mattina.",
+  "command": false
+ },
+ {
+  "id": "it.t9",
+  "lang": "it",
+  "selection": "Consegneremo il progetto venerdì.",
+  "say": "La versione polacca è pronta.",
+  "command": false
+ },
+ {
+  "id": "it.t10",
+  "lang": "it",
+  "selection": "Riunione spostata alle 16",
+  "say": "Riunione spostata alle 17.",
+  "command": false
+ },
+ {
+  "id": "it.t11",
+  "lang": "it",
+  "selection": "grazie per l'aiuto ieri",
+  "say": "Nessun problema, a domani.",
+  "command": false
+ },
+ {
+  "id": "it.t12",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "Va bene.",
+  "command": false
+ },
+ {
+  "id": "it.t13",
+  "lang": "it",
+  "selection": "Consegneremo il progetto venerdì.",
+  "say": "Ho accorciato la presentazione a dieci slide.",
+  "command": false
+ },
+ {
+  "id": "it.t14",
+  "lang": "it",
+  "selection": "Riunione spostata alle 16",
+  "say": "Abbiamo un problema con il login.",
+  "command": false
+ },
+ {
+  "id": "it.t15",
+  "lang": "it",
+  "selection": "grazie per l'aiuto ieri",
+  "say": "Rendimi un favore e chiama Giulia.",
+  "command": false
+ },
+ {
+  "id": "it.t16",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "Il suo inglese è ottimo.",
+  "command": false
+ }
+]

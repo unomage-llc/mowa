@@ -1,0 +1,15 @@
+# Build output
+.build/
+build/
+DerivedData/
+.swiftpm/
+*.xcodeproj/
+# Coverage / profiling leftovers from `swift test`
+*.profraw
+*.profdata
+.DS_Store
+# Package.resolved is committed on purpose: it pins mlx-swift 0.31.4 / mlx-swift-lm 3.31.4
+# (newer versions need Xcode 26.4) and the WhisperKit/HF versions the app was tested with.
+# Local scratch (eval results with real dictations, files waiting to be deleted) — never published
+_stage_read/
+_to_delete/

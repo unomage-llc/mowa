@@ -1,0 +1,2 @@
+"NSMicrophoneUsageDescription" = "Mowa escucha mientras mantienes pulsada la tecla de dictado y convierte tu voz en texto. El audio se procesa en este Mac y nunca se envía a ningún sitio.";
+"NSLocalNetworkUsageDescription" = "Solo se usa si eliges un modelo de limpieza que se ejecuta en un servidor de tu red local (Ajustes → Modelos).";

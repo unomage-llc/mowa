@@ -1,0 +1,2 @@
+"NSMicrophoneUsageDescription" = "Mowa słucha, gdy przytrzymujesz klawisz dyktowania, i zamienia mowę na tekst. Dźwięk jest przetwarzany na tym Macu i nigdzie nie jest wysyłany.";
+"NSLocalNetworkUsageDescription" = "Używane tylko, jeśli wybierzesz model porządkowania działający na serwerze w Twojej sieci lokalnej (Ustawienia → Modele).";

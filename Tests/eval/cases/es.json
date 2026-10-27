@@ -1,0 +1,962 @@
+[
+  {
+    "id": "es.plain.1",
+    "lang": "es",
+    "cat": "plain",
+    "say": "Mañana tengo una reunión con el equipo de ventas a primera hora.",
+    "expect": [
+      "Mañana tengo una reunión con el equipo de ventas a primera hora."
+    ],
+    "must": [
+      "reunión",
+      "equipo de ventas"
+    ],
+    "variants": [
+      "noise",
+      "voice2"
+    ]
+  },
+  {
+    "id": "es.plain.2",
+    "lang": "es",
+    "cat": "plain",
+    "say": "He terminado el informe y te lo envío esta tarde.",
+    "expect": [
+      "He terminado el informe y te lo envío esta tarde."
+    ],
+    "must": [
+      "informe",
+      "esta tarde"
+    ],
+    "variants": [
+      "quiet"
+    ]
+  },
+  {
+    "id": "es.short.1",
+    "lang": "es",
+    "cat": "short",
+    "say": "Vale.",
+    "expect": [
+      "Vale."
+    ],
+    "must": [
+      "vale"
+    ]
+  },
+  {
+    "id": "es.short.2",
+    "lang": "es",
+    "cat": "short",
+    "say": "Muchas gracias.",
+    "expect": [
+      "Muchas gracias."
+    ],
+    "must": [
+      "gracias"
+    ],
+    "variants": [
+      "phone"
+    ]
+  },
+  {
+    "id": "es.question.1",
+    "lang": "es",
+    "cat": "question",
+    "say": "¿Sabes a qué hora sale el tren para Valencia?",
+    "expect": [
+      "¿Sabes a qué hora sale el tren para Valencia?"
+    ],
+    "must": [
+      "¿",
+      "?",
+      "Valencia"
+    ],
+    "mustNot": [
+      "El tren sale"
+    ],
+    "note": "must stay a question, not be answered",
+    "variants": [
+      "echo"
+    ]
+  },
+  {
+    "id": "es.request.1",
+    "lang": "es",
+    "cat": "request",
+    "say": "Escríbeme un poema sobre el mar.",
+    "expect": [
+      "Escríbeme un poema sobre el mar."
+    ],
+    "must": [
+      "poema",
+      "mar"
+    ],
+    "format": "oneline",
+    "note": "must not write a poem"
+  },
+  {
+    "id": "es.fillers.1",
+    "lang": "es",
+    "cat": "fillers",
+    "say": "Eh, bueno, este, creo que, eh, podemos empezar el lunes.",
+    "expect": [
+      "Bueno, creo que podemos empezar el lunes.",
+      "Creo que podemos empezar el lunes."
+    ],
+    "must": [
+      "podemos empezar el lunes"
+    ],
+    "mustNot": [
+      "eh,",
+      "este,"
+    ]
+  },
+  {
+    "id": "es.fillers.2",
+    "lang": "es",
+    "cat": "fillers",
+    "say": "Mmm, o sea, la, la factura ya está pagada.",
+    "expect": [
+      "La factura ya está pagada.",
+      "O sea, la factura ya está pagada."
+    ],
+    "must": [
+      "factura",
+      "pagada"
+    ],
+    "mustNot": [
+      "mmm",
+      "la, la"
+    ],
+    "variants": [
+      "fast"
+    ]
+  },
+  {
+    "id": "es.selfcorr.1",
+    "lang": "es",
+    "cat": "selfcorr",
+    "say": "Quedamos a las cinco, no, perdón, a las seis en la cafetería.",
+    "expect": [
+      "Quedamos a las 6 en la cafetería.",
+      "Quedamos a las seis en la cafetería."
+    ],
+    "mustNot": [
+      "cinco",
+      "5",
+      "perdón"
+    ],
+    "must": [
+      "la cafetería"
+    ],
+    "variants": [
+      "noise"
+    ]
+  },
+  {
+    "id": "es.selfcorr.2",
+    "lang": "es",
+    "cat": "selfcorr",
+    "say": "La entrega es el martes, no espera, el jueves.",
+    "expect": [
+      "La entrega es el jueves."
+    ],
+    "must": [
+      "jueves"
+    ],
+    "mustNot": [
+      "martes",
+      "espera"
+    ],
+    "variants": [
+      "fast",
+      "phone"
+    ]
+  },
+  {
+    "id": "es.selfcorr.3",
+    "lang": "es",
+    "cat": "selfcorr",
+    "say": "Mándaselo a Pedro, quiero decir, a Javier, que es quien lleva el proyecto.",
+    "expect": [
+      "Mándaselo a Javier, que es quien lleva el proyecto."
+    ],
+    "must": [
+      "Javier",
+      "lleva el proyecto"
+    ],
+    "mustNot": [
+      "Pedro",
+      "quiero decir"
+    ]
+  },
+  {
+    "id": "es.restart.1",
+    "lang": "es",
+    "cat": "restart",
+    "say": "Entonces la idea es que nosotros, eh, empiezo de nuevo, lanzamos la campaña en mayo.",
+    "expect": [
+      "Lanzamos la campaña en mayo."
+    ],
+    "must": [
+      "lanzamos la campaña en mayo"
+    ],
+    "mustNot": [
+      "la idea es",
+      "empiezo de nuevo"
+    ]
+  },
+  {
+    "id": "es.restart.2",
+    "lang": "es",
+    "cat": "restart",
+    "say": "Te escribo porque, bueno, mejor dicho, te escribo para confirmar la cita.",
+    "expect": [
+      "Te escribo para confirmar la cita."
+    ],
+    "must": [
+      "confirmar la cita"
+    ],
+    "mustNot": [
+      "porque",
+      "mejor dicho"
+    ]
+  },
+  {
+    "id": "es.stutter.1",
+    "lang": "es",
+    "cat": "stutter",
+    "say": "Yo, yo, yo creo que el, el precio es demasiado alto.",
+    "expect": [
+      "Yo creo que el precio es demasiado alto.",
+      "Creo que el precio es demasiado alto."
+    ],
+    "must": [
+      "precio es demasiado alto"
+    ],
+    "mustNot": [
+      "yo, yo",
+      "el, el"
+    ]
+  },
+  {
+    "id": "es.list-numbered.1",
+    "lang": "es",
+    "cat": "list-numbered",
+    "say": "Para mañana, primero, revisar el contrato, segundo, llamar al cliente, y tercero, preparar la presentación.",
+    "expect": [
+      "Para mañana:\n1. Revisar el contrato.\n2. Llamar al cliente.\n3. Preparar la presentación.",
+      "Para mañana:\n1. Revisar el contrato\n2. Llamar al cliente\n3. Preparar la presentación"
+    ],
+    "format": "numbered",
+    "must": [
+      "contrato",
+      "cliente",
+      "presentación"
+    ],
+    "mustNot": [
+      "primero",
+      "segundo",
+      "tercero"
+    ],
+    "variants": [
+      "loud"
+    ]
+  },
+  {
+    "id": "es.list-announced.1",
+    "lang": "es",
+    "cat": "list-announced",
+    "say": "Tres cosas para la reunión: el presupuesto del año que viene, la contratación de dos personas y la nueva oficina.",
+    "expect": [
+      "Tres cosas para la reunión:\n- El presupuesto del año que viene\n- La contratación de dos personas\n- La nueva oficina",
+      "Tres cosas para la reunión:\n1. El presupuesto del año que viene\n2. La contratación de dos personas\n3. La nueva oficina"
+    ],
+    "format": "list",
+    "must": [
+      "presupuesto",
+      "contratación",
+      "nueva oficina"
+    ]
+  },
+  {
+    "id": "es.list-named.1",
+    "lang": "es",
+    "cat": "list-named",
+    "say": "Lista de la compra para mañana, leche, huevos, pan, agua, tomates y pepinos.",
+    "expect": [
+      "Lista de la compra para mañana:\n- Leche\n- Huevos\n- Pan\n- Agua\n- Tomates\n- Pepinos"
+    ],
+    "must": [
+      "leche",
+      "huevos",
+      "pan",
+      "agua",
+      "tomates",
+      "pepinos"
+    ],
+    "format": "list"
+  },
+  {
+    "id": "es.list-steps.1",
+    "lang": "es",
+    "cat": "list-steps",
+    "say": "Para instalarlo, abre la aplicación, luego acepta los permisos, después elige el idioma y por último descarga los modelos.",
+    "expect": [],
+    "must": [
+      "permisos",
+      "idioma",
+      "modelos"
+    ],
+    "note": "Steps said as a sentence (\"then… then… finally…\") may stay a sentence or become a list; only the steps must survive."
+  },
+  {
+    "id": "es.inline-items.1",
+    "lang": "es",
+    "cat": "inline-items",
+    "say": "Compra leche, pan y huevos cuando vuelvas a casa.",
+    "expect": [
+      "Compra leche, pan y huevos cuando vuelvas a casa."
+    ],
+    "format": "oneline",
+    "must": [
+      "leche, pan y huevos"
+    ]
+  },
+  {
+    "id": "es.punct.1",
+    "lang": "es",
+    "cat": "punct",
+    "say": "Hola Lucía coma vienes esta noche signo de interrogación",
+    "expect": [
+      "Hola Lucía, ¿vienes esta noche?",
+      "Hola, Lucía, ¿vienes esta noche?"
+    ],
+    "must": [
+      "Lucía",
+      "?"
+    ],
+    "mustNot": [
+      "coma",
+      "interrogación"
+    ]
+  },
+  {
+    "id": "es.punct.2",
+    "lang": "es",
+    "cat": "punct",
+    "say": "Qué buena noticia signo de exclamación nos vemos el viernes punto",
+    "expect": [
+      "¡Qué buena noticia! Nos vemos el viernes."
+    ],
+    "must": [
+      "!",
+      "viernes"
+    ],
+    "mustNot": [
+      "exclamación",
+      "punto"
+    ]
+  },
+  {
+    "id": "es.newline.1",
+    "lang": "es",
+    "cat": "newline",
+    "say": "Hola Marta, nueva línea, gracias por la información, te llamo mañana.",
+    "expect": [
+      "Hola Marta,\nGracias por la información, te llamo mañana.",
+      "Hola Marta,\ngracias por la información, te llamo mañana."
+    ],
+    "must": [
+      "Marta",
+      "\n",
+      "te llamo mañana"
+    ],
+    "mustNot": [
+      "nueva línea"
+    ]
+  },
+  {
+    "id": "es.newline.2",
+    "lang": "es",
+    "cat": "newline",
+    "say": "Primer punto cerrado, nuevo párrafo, ahora pasamos al presupuesto.",
+    "expect": [
+      "Primer punto cerrado.\n\nAhora pasamos al presupuesto."
+    ],
+    "must": [
+      "\n",
+      "presupuesto"
+    ],
+    "mustNot": [
+      "nuevo párrafo"
+    ]
+  },
+  {
+    "id": "es.money.1",
+    "lang": "es",
+    "cat": "money",
+    "say": "El presupuesto es de mil doscientos cincuenta euros.",
+    "expect": [
+      "El presupuesto es de 1.250 €.",
+      "El presupuesto es de 1250 €.",
+      "El presupuesto es de 1.250 euros.",
+      "El presupuesto es de 1250 euros."
+    ],
+    "must": [
+      "1"
+    ],
+    "mustNot": [
+      "mil doscientos"
+    ],
+    "variants": [
+      "echo"
+    ]
+  },
+  {
+    "id": "es.percent.1",
+    "lang": "es",
+    "cat": "percent",
+    "say": "Nos han hecho un descuento del quince por ciento.",
+    "expect": [
+      "Nos han hecho un descuento del 15 %.",
+      "Nos han hecho un descuento del 15%."
+    ],
+    "must": [
+      "15"
+    ],
+    "mustNot": [
+      "quince"
+    ]
+  },
+  {
+    "id": "es.time.1",
+    "lang": "es",
+    "cat": "time",
+    "say": "La llamada es a las nueve y media de la mañana.",
+    "expect": [
+      "La llamada es a las 9:30 de la mañana.",
+      "La llamada es a las nueve y media de la mañana."
+    ],
+    "must": [
+      "mañana"
+    ]
+  },
+  {
+    "id": "es.date.1",
+    "lang": "es",
+    "cat": "date",
+    "say": "El plazo termina el quince de marzo de dos mil veintisiete.",
+    "expect": [
+      "El plazo termina el 15 de marzo de 2027."
+    ],
+    "must": [
+      "15 de marzo",
+      "2027"
+    ]
+  },
+  {
+    "id": "es.phone.1",
+    "lang": "es",
+    "cat": "phone",
+    "say": "Mi número es seis uno dos, tres cuatro cinco, seis siete ocho.",
+    "expect": [
+      "Mi número es 612 345 678.",
+      "Mi número es 612345678."
+    ],
+    "must": [
+      "612"
+    ]
+  },
+  {
+    "id": "es.units.1",
+    "lang": "es",
+    "cat": "units",
+    "say": "La caja pesa tres coma cinco kilos y mide cuarenta centímetros.",
+    "expect": [
+      "La caja pesa 3,5 kg y mide 40 cm.",
+      "La caja pesa 3,5 kilos y mide 40 centímetros."
+    ],
+    "must": [
+      "3,5",
+      "40"
+    ]
+  },
+  {
+    "id": "es.bignum.1",
+    "lang": "es",
+    "cat": "bignum",
+    "say": "La ciudad tiene un millón doscientos mil habitantes.",
+    "expect": [
+      "La ciudad tiene 1.200.000 habitantes.",
+      "La ciudad tiene 1,2 millones de habitantes.",
+      "La ciudad tiene un millón doscientos mil habitantes."
+    ],
+    "must": [
+      "habitantes"
+    ]
+  },
+  {
+    "id": "es.email-url.1",
+    "lang": "es",
+    "cat": "email-url",
+    "say": "Escríbeme a ana punto garcía arroba empresa punto es.",
+    "expect": [
+      "Escríbeme a ana.garcia@empresa.es.",
+      "Escríbeme a ana.garcía@empresa.es."
+    ],
+    "must": [
+      "@empresa.es"
+    ],
+    "mustNot": [
+      "arroba"
+    ]
+  },
+  {
+    "id": "es.spelling.1",
+    "lang": "es",
+    "cat": "spelling",
+    "say": "El apellido es Jiménez, jota, i, eme, e, ene, e, zeta.",
+    "expect": [
+      "El apellido es Jiménez."
+    ],
+    "must": [
+      "Jiménez"
+    ],
+    "mustNot": [
+      "jota"
+    ]
+  },
+  {
+    "id": "es.emoji.1",
+    "lang": "es",
+    "cat": "emoji",
+    "say": "Enhorabuena a todos emoji de pulgar arriba",
+    "expect": [
+      "Enhorabuena a todos 👍",
+      "Enhorabuena a todos. 👍"
+    ],
+    "must": [
+      "👍"
+    ],
+    "mustNot": [
+      "emoji"
+    ]
+  },
+  {
+    "id": "es.slang.1",
+    "lang": "es",
+    "cat": "slang",
+    "say": "Tío, qué guay, mola mogollón el piso nuevo.",
+    "expect": [
+      "Tío, qué guay, mola mogollón el piso nuevo."
+    ],
+    "must": [
+      "tío",
+      "guay",
+      "mola",
+      "mogollón"
+    ]
+  },
+  {
+    "id": "es.swear.1",
+    "lang": "es",
+    "cat": "swear",
+    "say": "Joder, otra vez se ha caído el servidor.",
+    "expect": [
+      "Joder, otra vez se ha caído el servidor."
+    ],
+    "must": [
+      "joder"
+    ]
+  },
+  {
+    "id": "es.mixed-lang.1",
+    "lang": "es",
+    "cat": "mixed-lang",
+    "say": "Haz el deploy después del code review y avisa en el canal de Slack.",
+    "expect": [
+      "Haz el deploy después del code review y avisa en el canal de Slack."
+    ],
+    "must": [
+      "deploy",
+      "code review",
+      "Slack"
+    ]
+  },
+  {
+    "id": "es.names.1",
+    "lang": "es",
+    "cat": "names",
+    "say": "Hoy he hablado con Carmen Rodríguez y con Alejandro Fernández.",
+    "expect": [
+      "Hoy he hablado con Carmen Rodríguez y con Alejandro Fernández."
+    ],
+    "must": [
+      "Carmen Rodríguez",
+      "Alejandro Fernández"
+    ],
+    "variants": [
+      "loudnoise"
+    ]
+  },
+  {
+    "id": "es.brands.1",
+    "lang": "es",
+    "cat": "brands",
+    "say": "Pagamos con Bizum y lo pedimos por Glovo.",
+    "expect": [
+      "Pagamos con Bizum y lo pedimos por Glovo."
+    ],
+    "must": [
+      "Bizum",
+      "Glovo"
+    ]
+  },
+  {
+    "id": "es.diacritics.1",
+    "lang": "es",
+    "cat": "diacritics",
+    "say": "El niño de la señora Muñoz está en el jardín.",
+    "expect": [
+      "El niño de la señora Muñoz está en el jardín."
+    ],
+    "must": [
+      "niño",
+      "señora Muñoz",
+      "jardín"
+    ]
+  },
+  {
+    "id": "es.homophone.1",
+    "lang": "es",
+    "cat": "homophone",
+    "say": "Sí, tú tienes razón, si quieres lo hacemos a tu manera.",
+    "expect": [
+      "Sí, tú tienes razón, si quieres lo hacemos a tu manera.",
+      "Sí, tú tienes razón. Si quieres, lo hacemos a tu manera."
+    ],
+    "must": [
+      "Sí, tú",
+      "si quieres"
+    ]
+  },
+  {
+    "id": "es.vocab.1",
+    "lang": "es",
+    "cat": "vocab",
+    "say": "Abre Kvasora y sincroniza los datos.",
+    "vocab": [
+      "Kvasora"
+    ],
+    "expect": [
+      "Abre Kvasora y sincroniza los datos."
+    ],
+    "must": [
+      "Kvasora"
+    ]
+  },
+  {
+    "id": "es.inline-fit.1",
+    "lang": "es",
+    "cat": "inline-fit",
+    "before": "La reunión es ",
+    "after": " en la sala B.",
+    "say": "el jueves por la tarde",
+    "expect": [
+      "el jueves por la tarde"
+    ],
+    "must": [
+      "el jueves"
+    ],
+    "mustNot": [
+      "tarde."
+    ]
+  },
+  {
+    "id": "es.app-chat.1",
+    "lang": "es",
+    "cat": "app-chat",
+    "app": "chat",
+    "say": "Vale, ahora te llamo.",
+    "expect": [
+      "Vale, ahora te llamo",
+      "vale, ahora te llamo",
+      "Vale, ahora te llamo.",
+      "vale, ahora te llamo."
+    ],
+    "must": [
+      "ahora te llamo"
+    ],
+    "note": "A finished sentence keeps its full stop in chats too (Drew)."
+  },
+  {
+    "id": "es.app-email.1",
+    "lang": "es",
+    "cat": "app-email",
+    "app": "email",
+    "say": "Estimado señor López, le adjunto el contrato firmado, un saludo.",
+    "expect": [],
+    "must": [
+      "López",
+      "contrato firmado"
+    ]
+  },
+  {
+    "id": "es.app-code.1",
+    "lang": "es",
+    "cat": "app-code",
+    "app": "terminal",
+    "say": "git push origin main",
+    "expect": [
+      "git push origin main"
+    ],
+    "must": [
+      "git push origin main"
+    ],
+    "mustNot": [
+      "main."
+    ]
+  },
+  {
+    "id": "es.long.1",
+    "lang": "es",
+    "cat": "long",
+    "say": "Bueno, os cuento cómo va el proyecto. Eh, esta semana hemos terminado el diseño de la aplicación y el cliente ya lo ha aprobado. La semana que viene empezamos con el desarrollo, que va a durar unas seis semanas. Cambiando de tema, necesitamos contratar a un programador más, porque Luis se va de vacaciones en agosto. Si alguien conoce a alguien, que me lo diga.",
+    "expect": [],
+    "must": [
+      "diseño",
+      "aprobado",
+      "seis semanas",
+      "Luis",
+      "agosto"
+    ],
+    "mustNot": [
+      "eh,"
+    ],
+    "variants": [
+      "slow"
+    ]
+  },
+  {
+    "id": "es.verylong.1",
+    "lang": "es",
+    "cat": "verylong",
+    "say": "Vale, voy a resumir la reunión de hoy. Eh, primero hablamos de las ventas del trimestre, que han subido un doce por ciento respecto al año pasado, sobre todo en Madrid y en Sevilla. Luego Marta presentó la nueva campaña de publicidad, que empezará el uno de junio y tendrá un presupuesto de cuarenta mil euros. Hubo algunas dudas sobre los anuncios en televisión, eh, porque son caros, así que al final decidimos centrarnos en redes sociales y en la radio local. Después pasamos a los problemas de logística. El almacén de Zaragoza va con retraso y varios clientes se han quejado de que los pedidos llegan tarde. Jorge va a hablar con el proveedor esta semana y nos dirá algo el viernes. Por último, comentamos la oficina nueva. La mudanza será en septiembre, y cada equipo tiene que preparar una lista de lo que necesita antes del quince de julio. Ah, y la próxima reunión es el martes a las diez. Si alguien no puede venir, que avise con tiempo. Nada más, gracias a todos.",
+    "expect": [],
+    "must": [
+      "12",
+      "Madrid",
+      "Sevilla",
+      "Marta",
+      "40",
+      "Zaragoza",
+      "Jorge",
+      "viernes",
+      "septiembre",
+      "15 de julio",
+      "martes"
+    ],
+    "mustNot": [
+      "eh,"
+    ]
+  },
+  {
+    "id": "es.translate.1",
+    "lang": "es",
+    "cat": "translate",
+    "out": "en",
+    "say": "Escribe en inglés. Carlos, tenemos que terminar el informe antes del viernes.",
+    "expect": [
+      "Carlos, we have to finish the report before Friday.",
+      "Carlos, we need to finish the report before Friday.",
+      "Carlos, we have to finish the report by Friday."
+    ],
+    "must": [
+      "Carlos",
+      "report",
+      "Friday"
+    ],
+    "mustNot": [
+      "Escribe",
+      "inglés",
+      "viernes"
+    ]
+  },
+  {
+    "id": "es.translate.2",
+    "lang": "es",
+    "cat": "translate",
+    "out": "pl",
+    "say": "Escribe en polaco. Hola Ana, ¿puedes venir mañana a las ocho?",
+    "expect": [
+      "Cześć Ana, możesz przyjść jutro o 8?",
+      "Cześć Anno, możesz przyjść jutro o 8?",
+      "Cześć Ana, czy możesz przyjść jutro o ósmej?"
+    ],
+    "must": [
+      "jutro"
+    ],
+    "mustNot": [
+      "Escribe",
+      "polaco",
+      "mañana"
+    ]
+  },
+  {
+    "id": "es.translate.3",
+    "lang": "es",
+    "cat": "translate",
+    "out": "ru",
+    "say": "Escribe en ruso. Gracias por la cena de ayer, estaba buenísima.",
+    "expect": [
+      "Спасибо за вчерашний ужин, было очень вкусно.",
+      "Спасибо за ужин вчера, было очень вкусно."
+    ],
+    "must": [
+      "Спасибо",
+      "ужин"
+    ],
+    "mustNot": [
+      "Escribe",
+      "gracias"
+    ]
+  },
+  {
+    "id": "es.translate.4",
+    "lang": "es",
+    "cat": "translate",
+    "out": "de",
+    "say": "Escribe en alemán. Laura, el paquete llega el lunes por la mañana.",
+    "expect": [
+      "Laura, das Paket kommt am Montagmorgen an.",
+      "Laura, das Paket kommt am Montag früh an.",
+      "Laura, das Paket kommt am Montagmorgen."
+    ],
+    "must": [
+      "Laura",
+      "Paket",
+      "Montag"
+    ],
+    "mustNot": [
+      "Escribe",
+      "alemán",
+      "lunes"
+    ]
+  },
+  {
+    "id": "es.translate.5",
+    "lang": "es",
+    "cat": "translate",
+    "out": "fr",
+    "say": "Escribe en francés. Miguel, he dejado las llaves en casa de tu hermana.",
+    "expect": [
+      "Miguel, j'ai laissé les clés chez ta sœur.",
+      "Miguel, j'ai laissé les clés chez ta soeur."
+    ],
+    "must": [
+      "Miguel",
+      "clés"
+    ],
+    "mustNot": [
+      "Escribe",
+      "francés",
+      "llaves"
+    ]
+  },
+  {
+    "id": "es.translate.6",
+    "lang": "es",
+    "cat": "translate",
+    "out": "pt",
+    "say": "Escribe en portugués. Sofía, ¿podemos cambiar la reunión al jueves?",
+    "expect": [
+      "Sofía, podemos mudar a reunião para quinta-feira?",
+      "Sofia, podemos mudar a reunião para quinta?",
+      "Sofía, podemos passar a reunião para quinta-feira?"
+    ],
+    "must": [
+      "reunião",
+      "quinta"
+    ],
+    "mustNot": [
+      "Escribe",
+      "portugués",
+      "jueves"
+    ]
+  },
+  {
+    "id": "es.translate.7",
+    "lang": "es",
+    "cat": "translate",
+    "out": "it",
+    "say": "Escribe en italiano. Pablo, llegaré tarde porque hay mucho tráfico.",
+    "expect": [
+      "Pablo, arriverò tardi perché c'è molto traffico.",
+      "Pablo, farò tardi perché c'è tanto traffico."
+    ],
+    "must": [
+      "Pablo",
+      "traffico"
+    ],
+    "mustNot": [
+      "Escribe",
+      "italiano",
+      "tráfico"
+    ]
+  },
+  {
+    "id": "es.command.1",
+    "lang": "es",
+    "cat": "command",
+    "mode": "command",
+    "selection": "oye mándame el informe ya que lo necesito",
+    "say": "Hazlo más formal.",
+    "expect": [],
+    "must": [
+      "informe"
+    ],
+    "mustNot": [
+      "oye",
+      "Hazlo"
+    ]
+  },
+  {
+    "id": "es.command.2",
+    "lang": "es",
+    "cat": "command",
+    "mode": "command",
+    "selection": "Quería decirte que, como ya te comenté la semana pasada en la reunión que tuvimos con todo el equipo, el proyecto se va a retrasar un poco, probablemente unas dos semanas.",
+    "say": "Acórtalo.",
+    "expect": [],
+    "must": [
+      "proyecto",
+      "dos semanas"
+    ],
+    "mustNot": [
+      "Acórtalo"
+    ]
+  },
+  {
+    "id": "es.command.3",
+    "lang": "es",
+    "cat": "command",
+    "mode": "command",
+    "selection": "Nos vemos el martes en la oficina.",
+    "say": "Tradúcelo al inglés.",
+    "out": "en",
+    "expect": [
+      "See you on Tuesday at the office.",
+      "See you Tuesday at the office.",
+      "We'll see each other on Tuesday at the office."
+    ],
+    "must": [
+      "Tuesday",
+      "office"
+    ],
+    "mustNot": [
+      "martes"
+    ]
+  }
+]

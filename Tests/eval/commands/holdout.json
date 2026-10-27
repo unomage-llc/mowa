@@ -1,0 +1,2211 @@
+[
+ {
+  "id": "en.h.c1",
+  "lang": "en",
+  "selection": "pls send invoice today thx",
+  "say": "Make this more professional.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "en.h.c2",
+  "lang": "en",
+  "selection": "Our team will review the proposal next week.",
+  "say": "Into Spanish.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "en.h.c3",
+  "lang": "en",
+  "selection": "The meeting is cancelled.",
+  "say": "Cut it down a bit.",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "en.h.c4",
+  "lang": "en",
+  "selection": "i think we should maybe try the new supplier",
+  "say": "Fix the typos.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "en.h.c5",
+  "lang": "en",
+  "selection": "pls send invoice today thx",
+  "say": "Make it sound nicer.",
+  "command": true,
+  "labels": [
+   "POLITE|CASUAL"
+  ]
+ },
+ {
+  "id": "en.h.c6",
+  "lang": "en",
+  "selection": "Our team will review the proposal next week.",
+  "say": "Bullet points, please.",
+  "command": true,
+  "labels": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "en.h.c7",
+  "lang": "en",
+  "selection": "The meeting is cancelled.",
+  "say": "Give me a short summary.",
+  "command": true,
+  "labels": [
+   "SUMMARY"
+  ]
+ },
+ {
+  "id": "en.h.c8",
+  "lang": "en",
+  "selection": "i think we should maybe try the new supplier",
+  "say": "Translate it into French and make it shorter.",
+  "command": true,
+  "labels": [
+   "TRANSLATE",
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "en.h.c9",
+  "lang": "en",
+  "selection": "pls send invoice today thx",
+  "say": "Expand on this.",
+  "command": true,
+  "labels": [
+   "LONGER"
+  ]
+ },
+ {
+  "id": "en.h.c10",
+  "lang": "en",
+  "selection": "Our team will review the proposal next week.",
+  "say": "Reword it.",
+  "command": true,
+  "labels": [
+   "REPHRASE"
+  ]
+ },
+ {
+  "id": "en.h.c11",
+  "lang": "en",
+  "selection": "The meeting is cancelled.",
+  "say": "Make it easier to read.",
+  "command": true,
+  "labels": [
+   "SIMPLIFY"
+  ]
+ },
+ {
+  "id": "en.h.c12",
+  "lang": "en",
+  "selection": "i think we should maybe try the new supplier",
+  "say": "More casual.",
+  "command": true,
+  "labels": [
+   "CASUAL"
+  ]
+ },
+ {
+  "id": "en.h.c13",
+  "lang": "en",
+  "selection": "pls send invoice today thx",
+  "say": "Translate into English, make it more formal, and correct the errors.",
+  "command": true,
+  "labels": [
+   "TRANSLATE",
+   "FORMAL",
+   "FIX"
+  ]
+ },
+ {
+  "id": "en.h.c14",
+  "lang": "en",
+  "selection": "Our team will review the proposal next week.",
+  "say": "Check the spelling and punctuation.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "en.h.c15",
+  "lang": "en",
+  "selection": "The meeting is cancelled.",
+  "say": "Make it more polite and shorter.",
+  "command": true,
+  "labels": [
+   "POLITE",
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "en.h.c16",
+  "lang": "en",
+  "selection": "i think we should maybe try the new supplier",
+  "say": "Italian, please.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "en.h.t1",
+  "lang": "en",
+  "selection": "Our team will review the proposal next week.",
+  "say": "Shorter deadlines make people nervous.",
+  "command": false
+ },
+ {
+  "id": "en.h.t2",
+  "lang": "en",
+  "selection": "The meeting is cancelled.",
+  "say": "The translation is ready, I'll send it tonight.",
+  "command": false
+ },
+ {
+  "id": "en.h.t3",
+  "lang": "en",
+  "selection": "i think we should maybe try the new supplier",
+  "say": "Fix the bike before Saturday.",
+  "command": false
+ },
+ {
+  "id": "en.h.t4",
+  "lang": "en",
+  "selection": "pls send invoice today thx",
+  "say": "I made it more formal already.",
+  "command": false
+ },
+ {
+  "id": "en.h.t5",
+  "lang": "en",
+  "selection": "Our team will review the proposal next week.",
+  "say": "Sounds good.",
+  "command": false
+ },
+ {
+  "id": "en.h.t6",
+  "lang": "en",
+  "selection": "The meeting is cancelled.",
+  "say": "Could you call the supplier?",
+  "command": false
+ },
+ {
+  "id": "en.h.t7",
+  "lang": "en",
+  "selection": "i think we should maybe try the new supplier",
+  "say": "Make sure Anna gets the file.",
+  "command": false
+ },
+ {
+  "id": "en.h.t8",
+  "lang": "en",
+  "selection": "pls send invoice today thx",
+  "say": "We need a simpler process.",
+  "command": false
+ },
+ {
+  "id": "en.h.t9",
+  "lang": "en",
+  "selection": "Our team will review the proposal next week.",
+  "say": "Please review the contract.",
+  "command": false
+ },
+ {
+  "id": "en.h.t10",
+  "lang": "en",
+  "selection": "The meeting is cancelled.",
+  "say": "Polish is my second language.",
+  "command": false
+ },
+ {
+  "id": "en.h.t11",
+  "lang": "en",
+  "selection": "i think we should maybe try the new supplier",
+  "say": "Yes, let's do that.",
+  "command": false
+ },
+ {
+  "id": "en.h.t12",
+  "lang": "en",
+  "selection": "pls send invoice today thx",
+  "say": "The list is attached.",
+  "command": false
+ },
+ {
+  "id": "en.h.t13",
+  "lang": "en",
+  "selection": "Our team will review the proposal next week.",
+  "say": "Rewrite the tests for the payment module.",
+  "command": false
+ },
+ {
+  "id": "en.h.t14",
+  "lang": "en",
+  "selection": "The meeting is cancelled.",
+  "say": "Next week works for me.",
+  "command": false
+ },
+ {
+  "id": "en.h.t15",
+  "lang": "en",
+  "selection": "i think we should maybe try the new supplier",
+  "say": "Correct.",
+  "command": false
+ },
+ {
+  "id": "en.h.t16",
+  "lang": "en",
+  "selection": "pls send invoice today thx",
+  "say": "Summary of the meeting: nothing decided.",
+  "command": false
+ },
+ {
+  "id": "pl.h.c1",
+  "lang": "pl",
+  "selection": "wyślij fakture dzisiaj pls",
+  "say": "Bardziej oficjalnie.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "pl.h.c2",
+  "lang": "pl",
+  "selection": "Zespół przejrzy ofertę w przyszłym tygodniu.",
+  "say": "Na hiszpański.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pl.h.c3",
+  "lang": "pl",
+  "selection": "Spotkanie odwołane.",
+  "say": "Skróć trochę.",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "pl.h.c4",
+  "lang": "pl",
+  "selection": "myśle że może trzeba spróbować nowego dostawcę",
+  "say": "Popraw literówki.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "pl.h.c5",
+  "lang": "pl",
+  "selection": "wyślij fakture dzisiaj pls",
+  "say": "Napisz to milej.",
+  "command": true,
+  "labels": [
+   "POLITE|CASUAL"
+  ]
+ },
+ {
+  "id": "pl.h.c6",
+  "lang": "pl",
+  "selection": "Zespół przejrzy ofertę w przyszłym tygodniu.",
+  "say": "Zrób z tego punkty.",
+  "command": true,
+  "labels": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "pl.h.c7",
+  "lang": "pl",
+  "selection": "Spotkanie odwołane.",
+  "say": "Streść to krótko.",
+  "command": true,
+  "labels": [
+   "SUMMARY"
+  ]
+ },
+ {
+  "id": "pl.h.c8",
+  "lang": "pl",
+  "selection": "myśle że może trzeba spróbować nowego dostawcę",
+  "say": "Przetłumacz na francuski i skróć.",
+  "command": true,
+  "labels": [
+   "TRANSLATE",
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "pl.h.c9",
+  "lang": "pl",
+  "selection": "wyślij fakture dzisiaj pls",
+  "say": "Rozbuduj to.",
+  "command": true,
+  "labels": [
+   "LONGER"
+  ]
+ },
+ {
+  "id": "pl.h.c10",
+  "lang": "pl",
+  "selection": "Zespół przejrzy ofertę w przyszłym tygodniu.",
+  "say": "Sformułuj to inaczej.",
+  "command": true,
+  "labels": [
+   "REPHRASE"
+  ]
+ },
+ {
+  "id": "pl.h.c11",
+  "lang": "pl",
+  "selection": "Spotkanie odwołane.",
+  "say": "Napisz to prościej.",
+  "command": true,
+  "labels": [
+   "SIMPLIFY"
+  ]
+ },
+ {
+  "id": "pl.h.c12",
+  "lang": "pl",
+  "selection": "myśle że może trzeba spróbować nowego dostawcę",
+  "say": "Luźniej.",
+  "command": true,
+  "labels": [
+   "CASUAL"
+  ]
+ },
+ {
+  "id": "pl.h.c13",
+  "lang": "pl",
+  "selection": "wyślij fakture dzisiaj pls",
+  "say": "Przetłumacz na angielski, zrób bardziej formalnie i popraw błędy.",
+  "command": true,
+  "labels": [
+   "TRANSLATE",
+   "FORMAL",
+   "FIX"
+  ]
+ },
+ {
+  "id": "pl.h.c14",
+  "lang": "pl",
+  "selection": "Zespół przejrzy ofertę w przyszłym tygodniu.",
+  "say": "Popraw ortografię i interpunkcję.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "pl.h.c15",
+  "lang": "pl",
+  "selection": "Spotkanie odwołane.",
+  "say": "Grzeczniej i krócej.",
+  "command": true,
+  "labels": [
+   "POLITE",
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "pl.h.c16",
+  "lang": "pl",
+  "selection": "myśle że może trzeba spróbować nowego dostawcę",
+  "say": "Po włosku.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pl.h.t1",
+  "lang": "pl",
+  "selection": "Zespół przejrzy ofertę w przyszłym tygodniu.",
+  "say": "Krótsze terminy stresują ludzi.",
+  "command": false
+ },
+ {
+  "id": "pl.h.t2",
+  "lang": "pl",
+  "selection": "Spotkanie odwołane.",
+  "say": "Tłumaczenie jest gotowe, wyślę wieczorem.",
+  "command": false
+ },
+ {
+  "id": "pl.h.t3",
+  "lang": "pl",
+  "selection": "myśle że może trzeba spróbować nowego dostawcę",
+  "say": "Napraw rower przed sobotą.",
+  "command": false
+ },
+ {
+  "id": "pl.h.t4",
+  "lang": "pl",
+  "selection": "wyślij fakture dzisiaj pls",
+  "say": "Już to poprawiłem.",
+  "command": false
+ },
+ {
+  "id": "pl.h.t5",
+  "lang": "pl",
+  "selection": "Zespół przejrzy ofertę w przyszłym tygodniu.",
+  "say": "Brzmi dobrze.",
+  "command": false
+ },
+ {
+  "id": "pl.h.t6",
+  "lang": "pl",
+  "selection": "Spotkanie odwołane.",
+  "say": "Możesz zadzwonić do dostawcy?",
+  "command": false
+ },
+ {
+  "id": "pl.h.t7",
+  "lang": "pl",
+  "selection": "myśle że może trzeba spróbować nowego dostawcę",
+  "say": "Upewnij się, że Ania dostanie plik.",
+  "command": false
+ },
+ {
+  "id": "pl.h.t8",
+  "lang": "pl",
+  "selection": "wyślij fakture dzisiaj pls",
+  "say": "Potrzebujemy prostszego procesu.",
+  "command": false
+ },
+ {
+  "id": "pl.h.t9",
+  "lang": "pl",
+  "selection": "Zespół przejrzy ofertę w przyszłym tygodniu.",
+  "say": "Przejrzyj proszę umowę.",
+  "command": false
+ },
+ {
+  "id": "pl.h.t10",
+  "lang": "pl",
+  "selection": "Spotkanie odwołane.",
+  "say": "Polski to mój drugi język.",
+  "command": false
+ },
+ {
+  "id": "pl.h.t11",
+  "lang": "pl",
+  "selection": "myśle że może trzeba spróbować nowego dostawcę",
+  "say": "Tak, zróbmy tak.",
+  "command": false
+ },
+ {
+  "id": "pl.h.t12",
+  "lang": "pl",
+  "selection": "wyślij fakture dzisiaj pls",
+  "say": "Lista jest w załączniku.",
+  "command": false
+ },
+ {
+  "id": "pl.h.t13",
+  "lang": "pl",
+  "selection": "Zespół przejrzy ofertę w przyszłym tygodniu.",
+  "say": "Przepisz testy modułu płatności.",
+  "command": false
+ },
+ {
+  "id": "pl.h.t14",
+  "lang": "pl",
+  "selection": "Spotkanie odwołane.",
+  "say": "Przyszły tydzień mi pasuje.",
+  "command": false
+ },
+ {
+  "id": "pl.h.t15",
+  "lang": "pl",
+  "selection": "myśle że może trzeba spróbować nowego dostawcę",
+  "say": "Zgadza się.",
+  "command": false
+ },
+ {
+  "id": "pl.h.t16",
+  "lang": "pl",
+  "selection": "wyślij fakture dzisiaj pls",
+  "say": "Podsumowanie spotkania: nic nie ustalono.",
+  "command": false
+ },
+ {
+  "id": "ru.h.c1",
+  "lang": "ru",
+  "selection": "скинь счёт сегодня плз",
+  "say": "Сделай солиднее.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "ru.h.c2",
+  "lang": "ru",
+  "selection": "Команда посмотрит предложение на следующей неделе.",
+  "say": "На испанский.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "ru.h.c3",
+  "lang": "ru",
+  "selection": "Встреча отменена.",
+  "say": "Сократи немного.",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "ru.h.c4",
+  "lang": "ru",
+  "selection": "думаю надо может попробовать нового поставщика",
+  "say": "Исправь опечатки.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "ru.h.c5",
+  "lang": "ru",
+  "selection": "скинь счёт сегодня плз",
+  "say": "Напиши помягче.",
+  "command": true,
+  "labels": [
+   "POLITE|CASUAL"
+  ]
+ },
+ {
+  "id": "ru.h.c6",
+  "lang": "ru",
+  "selection": "Команда посмотрит предложение на следующей неделе.",
+  "say": "Оформи списком.",
+  "command": true,
+  "labels": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "ru.h.c7",
+  "lang": "ru",
+  "selection": "Встреча отменена.",
+  "say": "Кратко перескажи.",
+  "command": true,
+  "labels": [
+   "SUMMARY"
+  ]
+ },
+ {
+  "id": "ru.h.c8",
+  "lang": "ru",
+  "selection": "думаю надо может попробовать нового поставщика",
+  "say": "Переведи на французский и сократи.",
+  "command": true,
+  "labels": [
+   "TRANSLATE",
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "ru.h.c9",
+  "lang": "ru",
+  "selection": "скинь счёт сегодня плз",
+  "say": "Распиши подробнее.",
+  "command": true,
+  "labels": [
+   "LONGER"
+  ]
+ },
+ {
+  "id": "ru.h.c10",
+  "lang": "ru",
+  "selection": "Команда посмотрит предложение на следующей неделе.",
+  "say": "Скажи это другими словами.",
+  "command": true,
+  "labels": [
+   "REPHRASE"
+  ]
+ },
+ {
+  "id": "ru.h.c11",
+  "lang": "ru",
+  "selection": "Встреча отменена.",
+  "say": "Упрости текст.",
+  "command": true,
+  "labels": [
+   "SIMPLIFY"
+  ]
+ },
+ {
+  "id": "ru.h.c12",
+  "lang": "ru",
+  "selection": "думаю надо может попробовать нового поставщика",
+  "say": "Попроще и неформально.",
+  "command": true,
+  "labels": [
+   "SIMPLIFY",
+   "CASUAL"
+  ]
+ },
+ {
+  "id": "ru.h.c13",
+  "lang": "ru",
+  "selection": "скинь счёт сегодня плз",
+  "say": "Переведи на английский, сделай официальнее и исправь ошибки.",
+  "command": true,
+  "labels": [
+   "TRANSLATE",
+   "FORMAL",
+   "FIX"
+  ]
+ },
+ {
+  "id": "ru.h.c14",
+  "lang": "ru",
+  "selection": "Команда посмотрит предложение на следующей неделе.",
+  "say": "Проверь орфографию и пунктуацию.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "ru.h.c15",
+  "lang": "ru",
+  "selection": "Встреча отменена.",
+  "say": "Вежливее и короче.",
+  "command": true,
+  "labels": [
+   "POLITE",
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "ru.h.c16",
+  "lang": "ru",
+  "selection": "думаю надо может попробовать нового поставщика",
+  "say": "По-итальянски.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "ru.h.t1",
+  "lang": "ru",
+  "selection": "Команда посмотрит предложение на следующей неделе.",
+  "say": "Короткие сроки всех нервируют.",
+  "command": false
+ },
+ {
+  "id": "ru.h.t2",
+  "lang": "ru",
+  "selection": "Встреча отменена.",
+  "say": "Перевод готов, пришлю вечером.",
+  "command": false
+ },
+ {
+  "id": "ru.h.t3",
+  "lang": "ru",
+  "selection": "думаю надо может попробовать нового поставщика",
+  "say": "Почини велосипед до субботы.",
+  "command": false
+ },
+ {
+  "id": "ru.h.t4",
+  "lang": "ru",
+  "selection": "скинь счёт сегодня плз",
+  "say": "Я уже всё исправил.",
+  "command": false
+ },
+ {
+  "id": "ru.h.t5",
+  "lang": "ru",
+  "selection": "Команда посмотрит предложение на следующей неделе.",
+  "say": "Звучит отлично.",
+  "command": false
+ },
+ {
+  "id": "ru.h.t6",
+  "lang": "ru",
+  "selection": "Встреча отменена.",
+  "say": "Можешь позвонить поставщику?",
+  "command": false
+ },
+ {
+  "id": "ru.h.t7",
+  "lang": "ru",
+  "selection": "думаю надо может попробовать нового поставщика",
+  "say": "Проследи, чтобы Аня получила файл.",
+  "command": false
+ },
+ {
+  "id": "ru.h.t8",
+  "lang": "ru",
+  "selection": "скинь счёт сегодня плз",
+  "say": "Нам нужен процесс попроще.",
+  "command": false
+ },
+ {
+  "id": "ru.h.t9",
+  "lang": "ru",
+  "selection": "Команда посмотрит предложение на следующей неделе.",
+  "say": "Посмотри, пожалуйста, договор.",
+  "command": false
+ },
+ {
+  "id": "ru.h.t10",
+  "lang": "ru",
+  "selection": "Встреча отменена.",
+  "say": "Польский у меня второй язык.",
+  "command": false
+ },
+ {
+  "id": "ru.h.t11",
+  "lang": "ru",
+  "selection": "думаю надо может попробовать нового поставщика",
+  "say": "Да, давай так.",
+  "command": false
+ },
+ {
+  "id": "ru.h.t12",
+  "lang": "ru",
+  "selection": "скинь счёт сегодня плз",
+  "say": "Список во вложении.",
+  "command": false
+ },
+ {
+  "id": "ru.h.t13",
+  "lang": "ru",
+  "selection": "Команда посмотрит предложение на следующей неделе.",
+  "say": "Перепиши тесты для модуля оплаты.",
+  "command": false
+ },
+ {
+  "id": "ru.h.t14",
+  "lang": "ru",
+  "selection": "Встреча отменена.",
+  "say": "Следующая неделя мне подходит.",
+  "command": false
+ },
+ {
+  "id": "ru.h.t15",
+  "lang": "ru",
+  "selection": "думаю надо может попробовать нового поставщика",
+  "say": "Именно.",
+  "command": false
+ },
+ {
+  "id": "ru.h.t16",
+  "lang": "ru",
+  "selection": "скинь счёт сегодня плз",
+  "say": "Итог встречи: ничего не решили.",
+  "command": false
+ },
+ {
+  "id": "de.h.c1",
+  "lang": "de",
+  "selection": "schick die rechnung heute pls",
+  "say": "Seriöser, bitte.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "de.h.c2",
+  "lang": "de",
+  "selection": "Das Team prüft das Angebot nächste Woche.",
+  "say": "Auf Spanisch.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "de.h.c3",
+  "lang": "de",
+  "selection": "Das Meeting fällt aus.",
+  "say": "Etwas kürzer.",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "de.h.c4",
+  "lang": "de",
+  "selection": "ich glaube wir sollten vielleicht den neuen lieferanten testen",
+  "say": "Korrigiere die Tippfehler.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "de.h.c5",
+  "lang": "de",
+  "selection": "schick die rechnung heute pls",
+  "say": "Schreib es netter.",
+  "command": true,
+  "labels": [
+   "POLITE|CASUAL"
+  ]
+ },
+ {
+  "id": "de.h.c6",
+  "lang": "de",
+  "selection": "Das Team prüft das Angebot nächste Woche.",
+  "say": "Als Stichpunkte.",
+  "command": true,
+  "labels": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "de.h.c7",
+  "lang": "de",
+  "selection": "Das Meeting fällt aus.",
+  "say": "Kurze Zusammenfassung bitte.",
+  "command": true,
+  "labels": [
+   "SUMMARY"
+  ]
+ },
+ {
+  "id": "de.h.c8",
+  "lang": "de",
+  "selection": "ich glaube wir sollten vielleicht den neuen lieferanten testen",
+  "say": "Übersetze es ins Französische und kürze es.",
+  "command": true,
+  "labels": [
+   "TRANSLATE",
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "de.h.c9",
+  "lang": "de",
+  "selection": "schick die rechnung heute pls",
+  "say": "Ausführlicher.",
+  "command": true,
+  "labels": [
+   "LONGER"
+  ]
+ },
+ {
+  "id": "de.h.c10",
+  "lang": "de",
+  "selection": "Das Team prüft das Angebot nächste Woche.",
+  "say": "Formuliere das anders.",
+  "command": true,
+  "labels": [
+   "REPHRASE"
+  ]
+ },
+ {
+  "id": "de.h.c11",
+  "lang": "de",
+  "selection": "Das Meeting fällt aus.",
+  "say": "Einfacher formulieren.",
+  "command": true,
+  "labels": [
+   "SIMPLIFY"
+  ]
+ },
+ {
+  "id": "de.h.c12",
+  "lang": "de",
+  "selection": "ich glaube wir sollten vielleicht den neuen lieferanten testen",
+  "say": "Lockerer.",
+  "command": true,
+  "labels": [
+   "CASUAL"
+  ]
+ },
+ {
+  "id": "de.h.c13",
+  "lang": "de",
+  "selection": "schick die rechnung heute pls",
+  "say": "Übersetze ins Englische, mach es formeller und korrigiere die Fehler.",
+  "command": true,
+  "labels": [
+   "TRANSLATE",
+   "FORMAL",
+   "FIX"
+  ]
+ },
+ {
+  "id": "de.h.c14",
+  "lang": "de",
+  "selection": "Das Team prüft das Angebot nächste Woche.",
+  "say": "Prüf Rechtschreibung und Zeichensetzung.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "de.h.c15",
+  "lang": "de",
+  "selection": "Das Meeting fällt aus.",
+  "say": "Höflicher und kürzer.",
+  "command": true,
+  "labels": [
+   "POLITE",
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "de.h.c16",
+  "lang": "de",
+  "selection": "ich glaube wir sollten vielleicht den neuen lieferanten testen",
+  "say": "Auf Italienisch.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "de.h.t1",
+  "lang": "de",
+  "selection": "Das Team prüft das Angebot nächste Woche.",
+  "say": "Kürzere Fristen machen alle nervös.",
+  "command": false
+ },
+ {
+  "id": "de.h.t2",
+  "lang": "de",
+  "selection": "Das Meeting fällt aus.",
+  "say": "Die Übersetzung ist fertig, ich schicke sie heute Abend.",
+  "command": false
+ },
+ {
+  "id": "de.h.t3",
+  "lang": "de",
+  "selection": "ich glaube wir sollten vielleicht den neuen lieferanten testen",
+  "say": "Reparier das Fahrrad vor Samstag.",
+  "command": false
+ },
+ {
+  "id": "de.h.t4",
+  "lang": "de",
+  "selection": "schick die rechnung heute pls",
+  "say": "Ich habe es schon formeller gemacht.",
+  "command": false
+ },
+ {
+  "id": "de.h.t5",
+  "lang": "de",
+  "selection": "Das Team prüft das Angebot nächste Woche.",
+  "say": "Klingt gut.",
+  "command": false
+ },
+ {
+  "id": "de.h.t6",
+  "lang": "de",
+  "selection": "Das Meeting fällt aus.",
+  "say": "Kannst du den Lieferanten anrufen?",
+  "command": false
+ },
+ {
+  "id": "de.h.t7",
+  "lang": "de",
+  "selection": "ich glaube wir sollten vielleicht den neuen lieferanten testen",
+  "say": "Sorg dafür, dass Anna die Datei bekommt.",
+  "command": false
+ },
+ {
+  "id": "de.h.t8",
+  "lang": "de",
+  "selection": "schick die rechnung heute pls",
+  "say": "Wir brauchen einen einfacheren Prozess.",
+  "command": false
+ },
+ {
+  "id": "de.h.t9",
+  "lang": "de",
+  "selection": "Das Team prüft das Angebot nächste Woche.",
+  "say": "Schau dir bitte den Vertrag an.",
+  "command": false
+ },
+ {
+  "id": "de.h.t10",
+  "lang": "de",
+  "selection": "Das Meeting fällt aus.",
+  "say": "Polnisch ist meine zweite Sprache.",
+  "command": false
+ },
+ {
+  "id": "de.h.t11",
+  "lang": "de",
+  "selection": "ich glaube wir sollten vielleicht den neuen lieferanten testen",
+  "say": "Ja, machen wir so.",
+  "command": false
+ },
+ {
+  "id": "de.h.t12",
+  "lang": "de",
+  "selection": "schick die rechnung heute pls",
+  "say": "Die Liste ist im Anhang.",
+  "command": false
+ },
+ {
+  "id": "de.h.t13",
+  "lang": "de",
+  "selection": "Das Team prüft das Angebot nächste Woche.",
+  "say": "Schreib die Tests für das Zahlungsmodul neu.",
+  "command": false
+ },
+ {
+  "id": "de.h.t14",
+  "lang": "de",
+  "selection": "Das Meeting fällt aus.",
+  "say": "Nächste Woche passt mir.",
+  "command": false
+ },
+ {
+  "id": "de.h.t15",
+  "lang": "de",
+  "selection": "ich glaube wir sollten vielleicht den neuen lieferanten testen",
+  "say": "Stimmt.",
+  "command": false
+ },
+ {
+  "id": "de.h.t16",
+  "lang": "de",
+  "selection": "schick die rechnung heute pls",
+  "say": "Ergebnis des Meetings: nichts entschieden.",
+  "command": false
+ },
+ {
+  "id": "es.h.c1",
+  "lang": "es",
+  "selection": "manda la factura hoy porfa",
+  "say": "Más serio.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "es.h.c2",
+  "lang": "es",
+  "selection": "El equipo revisará la propuesta la próxima semana.",
+  "say": "Al francés.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "es.h.c3",
+  "lang": "es",
+  "selection": "La reunión se cancela.",
+  "say": "Recórtalo un poco.",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "es.h.c4",
+  "lang": "es",
+  "selection": "creo que quizás deberíamos probar el nuevo proveedor",
+  "say": "Corrige las faltas de ortografía.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "es.h.c5",
+  "lang": "es",
+  "selection": "manda la factura hoy porfa",
+  "say": "Escríbelo más amable.",
+  "command": true,
+  "labels": [
+   "POLITE|CASUAL"
+  ]
+ },
+ {
+  "id": "es.h.c6",
+  "lang": "es",
+  "selection": "El equipo revisará la propuesta la próxima semana.",
+  "say": "Ponlo en viñetas.",
+  "command": true,
+  "labels": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "es.h.c7",
+  "lang": "es",
+  "selection": "La reunión se cancela.",
+  "say": "Haz un resumen corto.",
+  "command": true,
+  "labels": [
+   "SUMMARY"
+  ]
+ },
+ {
+  "id": "es.h.c8",
+  "lang": "es",
+  "selection": "creo que quizás deberíamos probar el nuevo proveedor",
+  "say": "Tradúcelo al inglés y acórtalo.",
+  "command": true,
+  "labels": [
+   "TRANSLATE",
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "es.h.c9",
+  "lang": "es",
+  "selection": "manda la factura hoy porfa",
+  "say": "Desarróllalo más.",
+  "command": true,
+  "labels": [
+   "LONGER"
+  ]
+ },
+ {
+  "id": "es.h.c10",
+  "lang": "es",
+  "selection": "El equipo revisará la propuesta la próxima semana.",
+  "say": "Dilo de otra manera.",
+  "command": true,
+  "labels": [
+   "REPHRASE"
+  ]
+ },
+ {
+  "id": "es.h.c11",
+  "lang": "es",
+  "selection": "La reunión se cancela.",
+  "say": "Hazlo más sencillo.",
+  "command": true,
+  "labels": [
+   "SIMPLIFY"
+  ]
+ },
+ {
+  "id": "es.h.c12",
+  "lang": "es",
+  "selection": "creo que quizás deberíamos probar el nuevo proveedor",
+  "say": "Más informal.",
+  "command": true,
+  "labels": [
+   "CASUAL"
+  ]
+ },
+ {
+  "id": "es.h.c13",
+  "lang": "es",
+  "selection": "manda la factura hoy porfa",
+  "say": "Traduce al inglés, hazlo más formal y corrige los errores.",
+  "command": true,
+  "labels": [
+   "TRANSLATE",
+   "FORMAL",
+   "FIX"
+  ]
+ },
+ {
+  "id": "es.h.c14",
+  "lang": "es",
+  "selection": "El equipo revisará la propuesta la próxima semana.",
+  "say": "Revisa la ortografía y la puntuación.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "es.h.c15",
+  "lang": "es",
+  "selection": "La reunión se cancela.",
+  "say": "Más educado y más corto.",
+  "command": true,
+  "labels": [
+   "POLITE",
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "es.h.c16",
+  "lang": "es",
+  "selection": "creo que quizás deberíamos probar el nuevo proveedor",
+  "say": "En italiano.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "es.h.t1",
+  "lang": "es",
+  "selection": "El equipo revisará la propuesta la próxima semana.",
+  "say": "Los plazos cortos ponen nerviosa a la gente.",
+  "command": false
+ },
+ {
+  "id": "es.h.t2",
+  "lang": "es",
+  "selection": "La reunión se cancela.",
+  "say": "La traducción está lista, la mando esta noche.",
+  "command": false
+ },
+ {
+  "id": "es.h.t3",
+  "lang": "es",
+  "selection": "creo que quizás deberíamos probar el nuevo proveedor",
+  "say": "Arregla la bici antes del sábado.",
+  "command": false
+ },
+ {
+  "id": "es.h.t4",
+  "lang": "es",
+  "selection": "manda la factura hoy porfa",
+  "say": "Ya lo he hecho más formal.",
+  "command": false
+ },
+ {
+  "id": "es.h.t5",
+  "lang": "es",
+  "selection": "El equipo revisará la propuesta la próxima semana.",
+  "say": "Suena bien.",
+  "command": false
+ },
+ {
+  "id": "es.h.t6",
+  "lang": "es",
+  "selection": "La reunión se cancela.",
+  "say": "¿Puedes llamar al proveedor?",
+  "command": false
+ },
+ {
+  "id": "es.h.t7",
+  "lang": "es",
+  "selection": "creo que quizás deberíamos probar el nuevo proveedor",
+  "say": "Asegúrate de que Ana reciba el archivo.",
+  "command": false
+ },
+ {
+  "id": "es.h.t8",
+  "lang": "es",
+  "selection": "manda la factura hoy porfa",
+  "say": "Necesitamos un proceso más sencillo.",
+  "command": false
+ },
+ {
+  "id": "es.h.t9",
+  "lang": "es",
+  "selection": "El equipo revisará la propuesta la próxima semana.",
+  "say": "Revisa el contrato, por favor.",
+  "command": false
+ },
+ {
+  "id": "es.h.t10",
+  "lang": "es",
+  "selection": "La reunión se cancela.",
+  "say": "El polaco es mi segundo idioma.",
+  "command": false
+ },
+ {
+  "id": "es.h.t11",
+  "lang": "es",
+  "selection": "creo que quizás deberíamos probar el nuevo proveedor",
+  "say": "Sí, hagámoslo así.",
+  "command": false
+ },
+ {
+  "id": "es.h.t12",
+  "lang": "es",
+  "selection": "manda la factura hoy porfa",
+  "say": "La lista va adjunta.",
+  "command": false
+ },
+ {
+  "id": "es.h.t13",
+  "lang": "es",
+  "selection": "El equipo revisará la propuesta la próxima semana.",
+  "say": "Reescribe las pruebas del módulo de pagos.",
+  "command": false
+ },
+ {
+  "id": "es.h.t14",
+  "lang": "es",
+  "selection": "La reunión se cancela.",
+  "say": "La semana que viene me va bien.",
+  "command": false
+ },
+ {
+  "id": "es.h.t15",
+  "lang": "es",
+  "selection": "creo que quizás deberíamos probar el nuevo proveedor",
+  "say": "Exacto.",
+  "command": false
+ },
+ {
+  "id": "es.h.t16",
+  "lang": "es",
+  "selection": "manda la factura hoy porfa",
+  "say": "Resumen de la reunión: no se decidió nada.",
+  "command": false
+ },
+ {
+  "id": "fr.h.c1",
+  "lang": "fr",
+  "selection": "envoie la facture aujourd'hui stp",
+  "say": "Plus sérieux.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "fr.h.c2",
+  "lang": "fr",
+  "selection": "L'équipe examinera la proposition la semaine prochaine.",
+  "say": "En espagnol.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "fr.h.c3",
+  "lang": "fr",
+  "selection": "La réunion est annulée.",
+  "say": "Raccourcis un peu.",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "fr.h.c4",
+  "lang": "fr",
+  "selection": "je pense qu'on devrait peut-être tester le nouveau fournisseur",
+  "say": "Corrige les coquilles.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "fr.h.c5",
+  "lang": "fr",
+  "selection": "envoie la facture aujourd'hui stp",
+  "say": "Écris-le plus gentiment.",
+  "command": true,
+  "labels": [
+   "POLITE|CASUAL"
+  ]
+ },
+ {
+  "id": "fr.h.c6",
+  "lang": "fr",
+  "selection": "L'équipe examinera la proposition la semaine prochaine.",
+  "say": "Mets-le en liste à puces.",
+  "command": true,
+  "labels": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "fr.h.c7",
+  "lang": "fr",
+  "selection": "La réunion est annulée.",
+  "say": "Fais un court résumé.",
+  "command": true,
+  "labels": [
+   "SUMMARY"
+  ]
+ },
+ {
+  "id": "fr.h.c8",
+  "lang": "fr",
+  "selection": "je pense qu'on devrait peut-être tester le nouveau fournisseur",
+  "say": "Traduis-le en anglais et raccourcis-le.",
+  "command": true,
+  "labels": [
+   "TRANSLATE",
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "fr.h.c9",
+  "lang": "fr",
+  "selection": "envoie la facture aujourd'hui stp",
+  "say": "Développe davantage.",
+  "command": true,
+  "labels": [
+   "LONGER"
+  ]
+ },
+ {
+  "id": "fr.h.c10",
+  "lang": "fr",
+  "selection": "L'équipe examinera la proposition la semaine prochaine.",
+  "say": "Dis-le autrement.",
+  "command": true,
+  "labels": [
+   "REPHRASE"
+  ]
+ },
+ {
+  "id": "fr.h.c11",
+  "lang": "fr",
+  "selection": "La réunion est annulée.",
+  "say": "Rends-le plus simple.",
+  "command": true,
+  "labels": [
+   "SIMPLIFY"
+  ]
+ },
+ {
+  "id": "fr.h.c12",
+  "lang": "fr",
+  "selection": "je pense qu'on devrait peut-être tester le nouveau fournisseur",
+  "say": "Plus décontracté.",
+  "command": true,
+  "labels": [
+   "CASUAL"
+  ]
+ },
+ {
+  "id": "fr.h.c13",
+  "lang": "fr",
+  "selection": "envoie la facture aujourd'hui stp",
+  "say": "Traduis en anglais, rends-le plus formel et corrige les fautes.",
+  "command": true,
+  "labels": [
+   "TRANSLATE",
+   "FORMAL",
+   "FIX"
+  ]
+ },
+ {
+  "id": "fr.h.c14",
+  "lang": "fr",
+  "selection": "L'équipe examinera la proposition la semaine prochaine.",
+  "say": "Vérifie l'orthographe et la ponctuation.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "fr.h.c15",
+  "lang": "fr",
+  "selection": "La réunion est annulée.",
+  "say": "Plus poli et plus court.",
+  "command": true,
+  "labels": [
+   "POLITE",
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "fr.h.c16",
+  "lang": "fr",
+  "selection": "je pense qu'on devrait peut-être tester le nouveau fournisseur",
+  "say": "En italien.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "fr.h.t1",
+  "lang": "fr",
+  "selection": "L'équipe examinera la proposition la semaine prochaine.",
+  "say": "Les délais courts rendent les gens nerveux.",
+  "command": false
+ },
+ {
+  "id": "fr.h.t2",
+  "lang": "fr",
+  "selection": "La réunion est annulée.",
+  "say": "La traduction est prête, je l'envoie ce soir.",
+  "command": false
+ },
+ {
+  "id": "fr.h.t3",
+  "lang": "fr",
+  "selection": "je pense qu'on devrait peut-être tester le nouveau fournisseur",
+  "say": "Répare le vélo avant samedi.",
+  "command": false
+ },
+ {
+  "id": "fr.h.t4",
+  "lang": "fr",
+  "selection": "envoie la facture aujourd'hui stp",
+  "say": "Je l'ai déjà rendu plus formel.",
+  "command": false
+ },
+ {
+  "id": "fr.h.t5",
+  "lang": "fr",
+  "selection": "L'équipe examinera la proposition la semaine prochaine.",
+  "say": "Ça me va.",
+  "command": false
+ },
+ {
+  "id": "fr.h.t6",
+  "lang": "fr",
+  "selection": "La réunion est annulée.",
+  "say": "Tu peux appeler le fournisseur ?",
+  "command": false
+ },
+ {
+  "id": "fr.h.t7",
+  "lang": "fr",
+  "selection": "je pense qu'on devrait peut-être tester le nouveau fournisseur",
+  "say": "Assure-toi qu'Anne reçoive le fichier.",
+  "command": false
+ },
+ {
+  "id": "fr.h.t8",
+  "lang": "fr",
+  "selection": "envoie la facture aujourd'hui stp",
+  "say": "Il nous faut un processus plus simple.",
+  "command": false
+ },
+ {
+  "id": "fr.h.t9",
+  "lang": "fr",
+  "selection": "L'équipe examinera la proposition la semaine prochaine.",
+  "say": "Relis le contrat, s'il te plaît.",
+  "command": false
+ },
+ {
+  "id": "fr.h.t10",
+  "lang": "fr",
+  "selection": "La réunion est annulée.",
+  "say": "Le polonais est ma deuxième langue.",
+  "command": false
+ },
+ {
+  "id": "fr.h.t11",
+  "lang": "fr",
+  "selection": "je pense qu'on devrait peut-être tester le nouveau fournisseur",
+  "say": "Oui, faisons comme ça.",
+  "command": false
+ },
+ {
+  "id": "fr.h.t12",
+  "lang": "fr",
+  "selection": "envoie la facture aujourd'hui stp",
+  "say": "La liste est en pièce jointe.",
+  "command": false
+ },
+ {
+  "id": "fr.h.t13",
+  "lang": "fr",
+  "selection": "L'équipe examinera la proposition la semaine prochaine.",
+  "say": "Réécris les tests du module de paiement.",
+  "command": false
+ },
+ {
+  "id": "fr.h.t14",
+  "lang": "fr",
+  "selection": "La réunion est annulée.",
+  "say": "La semaine prochaine me convient.",
+  "command": false
+ },
+ {
+  "id": "fr.h.t15",
+  "lang": "fr",
+  "selection": "je pense qu'on devrait peut-être tester le nouveau fournisseur",
+  "say": "Exactement.",
+  "command": false
+ },
+ {
+  "id": "fr.h.t16",
+  "lang": "fr",
+  "selection": "envoie la facture aujourd'hui stp",
+  "say": "Bilan de la réunion : rien n'a été décidé.",
+  "command": false
+ },
+ {
+  "id": "pt.h.c1",
+  "lang": "pt",
+  "selection": "manda a fatura hoje pfv",
+  "say": "Mais sério.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "pt.h.c2",
+  "lang": "pt",
+  "selection": "A equipe vai revisar a proposta na semana que vem.",
+  "say": "Em espanhol.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pt.h.c3",
+  "lang": "pt",
+  "selection": "A reunião foi cancelada.",
+  "say": "Corta um pouco.",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "pt.h.c4",
+  "lang": "pt",
+  "selection": "acho que talvez a gente devia testar o novo fornecedor",
+  "say": "Corrija os erros de digitação.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "pt.h.c5",
+  "lang": "pt",
+  "selection": "manda a fatura hoje pfv",
+  "say": "Escreva de um jeito mais gentil.",
+  "command": true,
+  "labels": [
+   "POLITE|CASUAL"
+  ]
+ },
+ {
+  "id": "pt.h.c6",
+  "lang": "pt",
+  "selection": "A equipe vai revisar a proposta na semana que vem.",
+  "say": "Coloque em tópicos.",
+  "command": true,
+  "labels": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "pt.h.c7",
+  "lang": "pt",
+  "selection": "A reunião foi cancelada.",
+  "say": "Faça um resumo curto.",
+  "command": true,
+  "labels": [
+   "SUMMARY"
+  ]
+ },
+ {
+  "id": "pt.h.c8",
+  "lang": "pt",
+  "selection": "acho que talvez a gente devia testar o novo fornecedor",
+  "say": "Traduza para o inglês e encurte.",
+  "command": true,
+  "labels": [
+   "TRANSLATE",
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "pt.h.c9",
+  "lang": "pt",
+  "selection": "manda a fatura hoje pfv",
+  "say": "Desenvolva mais.",
+  "command": true,
+  "labels": [
+   "LONGER"
+  ]
+ },
+ {
+  "id": "pt.h.c10",
+  "lang": "pt",
+  "selection": "A equipe vai revisar a proposta na semana que vem.",
+  "say": "Diga de outro jeito.",
+  "command": true,
+  "labels": [
+   "REPHRASE"
+  ]
+ },
+ {
+  "id": "pt.h.c11",
+  "lang": "pt",
+  "selection": "A reunião foi cancelada.",
+  "say": "Deixe mais simples.",
+  "command": true,
+  "labels": [
+   "SIMPLIFY"
+  ]
+ },
+ {
+  "id": "pt.h.c12",
+  "lang": "pt",
+  "selection": "acho que talvez a gente devia testar o novo fornecedor",
+  "say": "Mais descontraído.",
+  "command": true,
+  "labels": [
+   "CASUAL"
+  ]
+ },
+ {
+  "id": "pt.h.c13",
+  "lang": "pt",
+  "selection": "manda a fatura hoje pfv",
+  "say": "Traduza para o inglês, deixe mais formal e corrija os erros.",
+  "command": true,
+  "labels": [
+   "TRANSLATE",
+   "FORMAL",
+   "FIX"
+  ]
+ },
+ {
+  "id": "pt.h.c14",
+  "lang": "pt",
+  "selection": "A equipe vai revisar a proposta na semana que vem.",
+  "say": "Revise a ortografia e a pontuação.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "pt.h.c15",
+  "lang": "pt",
+  "selection": "A reunião foi cancelada.",
+  "say": "Mais educado e mais curto.",
+  "command": true,
+  "labels": [
+   "POLITE",
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "pt.h.c16",
+  "lang": "pt",
+  "selection": "acho que talvez a gente devia testar o novo fornecedor",
+  "say": "Em italiano.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pt.h.t1",
+  "lang": "pt",
+  "selection": "A equipe vai revisar a proposta na semana que vem.",
+  "say": "Prazos curtos deixam todo mundo nervoso.",
+  "command": false
+ },
+ {
+  "id": "pt.h.t2",
+  "lang": "pt",
+  "selection": "A reunião foi cancelada.",
+  "say": "A tradução está pronta, mando hoje à noite.",
+  "command": false
+ },
+ {
+  "id": "pt.h.t3",
+  "lang": "pt",
+  "selection": "acho que talvez a gente devia testar o novo fornecedor",
+  "say": "Conserta a bicicleta antes de sábado.",
+  "command": false
+ },
+ {
+  "id": "pt.h.t4",
+  "lang": "pt",
+  "selection": "manda a fatura hoje pfv",
+  "say": "Já deixei mais formal.",
+  "command": false
+ },
+ {
+  "id": "pt.h.t5",
+  "lang": "pt",
+  "selection": "A equipe vai revisar a proposta na semana que vem.",
+  "say": "Parece bom.",
+  "command": false
+ },
+ {
+  "id": "pt.h.t6",
+  "lang": "pt",
+  "selection": "A reunião foi cancelada.",
+  "say": "Você pode ligar para o fornecedor?",
+  "command": false
+ },
+ {
+  "id": "pt.h.t7",
+  "lang": "pt",
+  "selection": "acho que talvez a gente devia testar o novo fornecedor",
+  "say": "Garanta que a Ana receba o arquivo.",
+  "command": false
+ },
+ {
+  "id": "pt.h.t8",
+  "lang": "pt",
+  "selection": "manda a fatura hoje pfv",
+  "say": "Precisamos de um processo mais simples.",
+  "command": false
+ },
+ {
+  "id": "pt.h.t9",
+  "lang": "pt",
+  "selection": "A equipe vai revisar a proposta na semana que vem.",
+  "say": "Revise o contrato, por favor.",
+  "command": false
+ },
+ {
+  "id": "pt.h.t10",
+  "lang": "pt",
+  "selection": "A reunião foi cancelada.",
+  "say": "Polonês é minha segunda língua.",
+  "command": false
+ },
+ {
+  "id": "pt.h.t11",
+  "lang": "pt",
+  "selection": "acho que talvez a gente devia testar o novo fornecedor",
+  "say": "Sim, vamos fazer assim.",
+  "command": false
+ },
+ {
+  "id": "pt.h.t12",
+  "lang": "pt",
+  "selection": "manda a fatura hoje pfv",
+  "say": "A lista está em anexo.",
+  "command": false
+ },
+ {
+  "id": "pt.h.t13",
+  "lang": "pt",
+  "selection": "A equipe vai revisar a proposta na semana que vem.",
+  "say": "Reescreva os testes do módulo de pagamento.",
+  "command": false
+ },
+ {
+  "id": "pt.h.t14",
+  "lang": "pt",
+  "selection": "A reunião foi cancelada.",
+  "say": "Semana que vem funciona para mim.",
+  "command": false
+ },
+ {
+  "id": "pt.h.t15",
+  "lang": "pt",
+  "selection": "acho que talvez a gente devia testar o novo fornecedor",
+  "say": "Exato.",
+  "command": false
+ },
+ {
+  "id": "pt.h.t16",
+  "lang": "pt",
+  "selection": "manda a fatura hoje pfv",
+  "say": "Resumo da reunião: nada foi decidido.",
+  "command": false
+ },
+ {
+  "id": "it.h.c1",
+  "lang": "it",
+  "selection": "manda la fattura oggi pls",
+  "say": "Più serio.",
+  "command": true,
+  "labels": [
+   "FORMAL"
+  ]
+ },
+ {
+  "id": "it.h.c2",
+  "lang": "it",
+  "selection": "Il team esaminerà la proposta la prossima settimana.",
+  "say": "In spagnolo.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "it.h.c3",
+  "lang": "it",
+  "selection": "La riunione è annullata.",
+  "say": "Taglialo un po'.",
+  "command": true,
+  "labels": [
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "it.h.c4",
+  "lang": "it",
+  "selection": "penso che forse dovremmo provare il nuovo fornitore",
+  "say": "Correggi i refusi.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "it.h.c5",
+  "lang": "it",
+  "selection": "manda la fattura oggi pls",
+  "say": "Scrivilo in modo più carino.",
+  "command": true,
+  "labels": [
+   "POLITE|CASUAL"
+  ]
+ },
+ {
+  "id": "it.h.c6",
+  "lang": "it",
+  "selection": "Il team esaminerà la proposta la prossima settimana.",
+  "say": "Mettilo in un elenco puntato.",
+  "command": true,
+  "labels": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "it.h.c7",
+  "lang": "it",
+  "selection": "La riunione è annullata.",
+  "say": "Fai un breve riassunto.",
+  "command": true,
+  "labels": [
+   "SUMMARY"
+  ]
+ },
+ {
+  "id": "it.h.c8",
+  "lang": "it",
+  "selection": "penso che forse dovremmo provare il nuovo fornitore",
+  "say": "Traducilo in inglese e accorcialo.",
+  "command": true,
+  "labels": [
+   "TRANSLATE",
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "it.h.c9",
+  "lang": "it",
+  "selection": "manda la fattura oggi pls",
+  "say": "Sviluppalo di più.",
+  "command": true,
+  "labels": [
+   "LONGER"
+  ]
+ },
+ {
+  "id": "it.h.c10",
+  "lang": "it",
+  "selection": "Il team esaminerà la proposta la prossima settimana.",
+  "say": "Dillo in un altro modo.",
+  "command": true,
+  "labels": [
+   "REPHRASE"
+  ]
+ },
+ {
+  "id": "it.h.c11",
+  "lang": "it",
+  "selection": "La riunione è annullata.",
+  "say": "Rendilo più semplice.",
+  "command": true,
+  "labels": [
+   "SIMPLIFY"
+  ]
+ },
+ {
+  "id": "it.h.c12",
+  "lang": "it",
+  "selection": "penso che forse dovremmo provare il nuovo fornitore",
+  "say": "Più informale.",
+  "command": true,
+  "labels": [
+   "CASUAL"
+  ]
+ },
+ {
+  "id": "it.h.c13",
+  "lang": "it",
+  "selection": "manda la fattura oggi pls",
+  "say": "Traduci in inglese, rendilo più formale e correggi gli errori.",
+  "command": true,
+  "labels": [
+   "TRANSLATE",
+   "FORMAL",
+   "FIX"
+  ]
+ },
+ {
+  "id": "it.h.c14",
+  "lang": "it",
+  "selection": "Il team esaminerà la proposta la prossima settimana.",
+  "say": "Controlla ortografia e punteggiatura.",
+  "command": true,
+  "labels": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "it.h.c15",
+  "lang": "it",
+  "selection": "La riunione è annullata.",
+  "say": "Più educato e più corto.",
+  "command": true,
+  "labels": [
+   "POLITE",
+   "SHORTER"
+  ]
+ },
+ {
+  "id": "it.h.c16",
+  "lang": "it",
+  "selection": "penso che forse dovremmo provare il nuovo fornitore",
+  "say": "In italiano.",
+  "command": true,
+  "labels": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "it.h.t1",
+  "lang": "it",
+  "selection": "Il team esaminerà la proposta la prossima settimana.",
+  "say": "Le scadenze brevi rendono tutti nervosi.",
+  "command": false
+ },
+ {
+  "id": "it.h.t2",
+  "lang": "it",
+  "selection": "La riunione è annullata.",
+  "say": "La traduzione è pronta, la mando stasera.",
+  "command": false
+ },
+ {
+  "id": "it.h.t3",
+  "lang": "it",
+  "selection": "penso che forse dovremmo provare il nuovo fornitore",
+  "say": "Ripara la bici prima di sabato.",
+  "command": false
+ },
+ {
+  "id": "it.h.t4",
+  "lang": "it",
+  "selection": "manda la fattura oggi pls",
+  "say": "L'ho già reso più formale.",
+  "command": false
+ },
+ {
+  "id": "it.h.t5",
+  "lang": "it",
+  "selection": "Il team esaminerà la proposta la prossima settimana.",
+  "say": "Mi sembra buono.",
+  "command": false
+ },
+ {
+  "id": "it.h.t6",
+  "lang": "it",
+  "selection": "La riunione è annullata.",
+  "say": "Puoi chiamare il fornitore?",
+  "command": false
+ },
+ {
+  "id": "it.h.t7",
+  "lang": "it",
+  "selection": "penso che forse dovremmo provare il nuovo fornitore",
+  "say": "Assicurati che Anna riceva il file.",
+  "command": false
+ },
+ {
+  "id": "it.h.t8",
+  "lang": "it",
+  "selection": "manda la fattura oggi pls",
+  "say": "Ci serve un processo più semplice.",
+  "command": false
+ },
+ {
+  "id": "it.h.t9",
+  "lang": "it",
+  "selection": "Il team esaminerà la proposta la prossima settimana.",
+  "say": "Rivedi il contratto, per favore.",
+  "command": false
+ },
+ {
+  "id": "it.h.t10",
+  "lang": "it",
+  "selection": "La riunione è annullata.",
+  "say": "Il polacco è la mia seconda lingua.",
+  "command": false
+ },
+ {
+  "id": "it.h.t11",
+  "lang": "it",
+  "selection": "penso che forse dovremmo provare il nuovo fornitore",
+  "say": "Sì, facciamo così.",
+  "command": false
+ },
+ {
+  "id": "it.h.t12",
+  "lang": "it",
+  "selection": "manda la fattura oggi pls",
+  "say": "L'elenco è in allegato.",
+  "command": false
+ },
+ {
+  "id": "it.h.t13",
+  "lang": "it",
+  "selection": "Il team esaminerà la proposta la prossima settimana.",
+  "say": "Riscrivi i test del modulo pagamenti.",
+  "command": false
+ },
+ {
+  "id": "it.h.t14",
+  "lang": "it",
+  "selection": "La riunione è annullata.",
+  "say": "La settimana prossima mi va bene.",
+  "command": false
+ },
+ {
+  "id": "it.h.t15",
+  "lang": "it",
+  "selection": "penso che forse dovremmo provare il nuovo fornitore",
+  "say": "Esatto.",
+  "command": false
+ },
+ {
+  "id": "it.h.t16",
+  "lang": "it",
+  "selection": "manda la fattura oggi pls",
+  "say": "Esito della riunione: non si è deciso nulla.",
+  "command": false
+ }
+]

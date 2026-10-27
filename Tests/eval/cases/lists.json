@@ -1,0 +1,246 @@
+[
+ {
+  "id": "en.list-tasks.90",
+  "lang": "en",
+  "cat": "list-tasks",
+  "say": "Tomorrow is going to be a very interesting day for me. I need to get a lot of things done. Clean up the computer, do the laundry, clean the car, go to the store, stop by the pharmacy, buy groceries, and buy a watermelon.",
+  "expect": [],
+  "must": [
+   "interesting day",
+   "computer",
+   "laundry",
+   "car",
+   "store",
+   "pharmacy",
+   "groceries",
+   "watermelon"
+  ],
+  "format": "list",
+  "note": "Tasks rattled off after a lead-in (no 'first/second', no list word): each task on its own line. Drew 2026-10-23.",
+  "variants": [
+   "noise",
+   "fast"
+  ]
+ },
+ {
+  "id": "en.list-tasks.91",
+  "lang": "en",
+  "cat": "list-tasks",
+  "say": "This weekend I want to finally get my life in order. I have to call the bank, pay the electricity bill, book a dentist appointment, and renew my passport.",
+  "expect": [],
+  "must": [
+   "call the bank",
+   "electricity bill",
+   "dentist",
+   "passport"
+  ],
+  "format": "list"
+ },
+ {
+  "id": "en.list-tasks.92",
+  "lang": "en",
+  "cat": "list-tasks",
+  "say": "Okay, packing for the trip, passport, chargers, two pairs of shoes, the blue jacket, and sunscreen. That should be enough.",
+  "expect": [],
+  "must": [
+   "passport",
+   "chargers",
+   "shoes",
+   "blue jacket",
+   "sunscreen",
+   "should be enough"
+  ],
+  "format": "list",
+  "note": "A list followed by a remark: the remark stays after the list."
+ },
+ {
+  "id": "en.list-tasks.93",
+  "lang": "en",
+  "cat": "list-tasks",
+  "say": "Yesterday I woke up early, made coffee and went for a run.",
+  "expect": [],
+  "must": [
+   "woke up early",
+   "made coffee",
+   "went for a run"
+  ],
+  "format": "oneline",
+  "note": "Control: a story of three actions stays one sentence."
+ },
+ {
+  "id": "pl.list-tasks.90",
+  "lang": "pl",
+  "cat": "list-tasks",
+  "say": "Jutro będzie bardzo intensywny dzień. Mam mnóstwo rzeczy do zrobienia. Posprzątać komputer, zrobić pranie, umyć samochód, pójść do sklepu, wstąpić do apteki, kupić zakupy i kupić arbuza.",
+  "expect": [],
+  "must": [
+   "intensywny dzień",
+   "komputer",
+   "pranie",
+   "samochód",
+   "sklepu",
+   "apteki",
+   "arbuz"
+  ],
+  "format": "list",
+  "note": "Tasks rattled off after a lead-in (no 'first/second', no list word): each task on its own line. Drew 2026-10-23.",
+  "variants": [
+   "noise"
+  ]
+ },
+ {
+  "id": "pl.list-tasks.91",
+  "lang": "pl",
+  "cat": "list-tasks",
+  "say": "W weekend muszę zadzwonić do banku, zapłacić rachunek za prąd, umówić się do dentysty i odnowić paszport.",
+  "expect": [],
+  "must": [
+   "banku",
+   "prąd",
+   "dentysty",
+   "paszport"
+  ],
+  "format": "list"
+ },
+ {
+  "id": "ru.list-tasks.90",
+  "lang": "ru",
+  "cat": "list-tasks",
+  "say": "Завтра будет очень насыщенный день. Мне нужно много всего сделать. Почистить компьютер, постирать вещи, помыть машину, сходить в магазин, зайти в аптеку, купить продукты и купить арбуз.",
+  "expect": [],
+  "must": [
+   "насыщенный день",
+   "компьютер",
+   "постирать",
+   "машину",
+   "магазин",
+   "аптек",
+   "продукты",
+   "арбуз"
+  ],
+  "format": "list",
+  "note": "Tasks rattled off after a lead-in (no 'first/second', no list word): each task on its own line. Drew 2026-10-23.",
+  "variants": [
+   "noise",
+   "fast"
+  ]
+ },
+ {
+  "id": "ru.list-tasks.91",
+  "lang": "ru",
+  "cat": "list-tasks",
+  "say": "На выходных мне надо позвонить в банк, оплатить счёт за свет, записаться к стоматологу и продлить паспорт.",
+  "expect": [],
+  "must": [
+   "банк",
+   "свет",
+   "стоматолог",
+   "паспорт"
+  ],
+  "format": "list"
+ },
+ {
+  "id": "ru.list-tasks.92",
+  "lang": "ru",
+  "cat": "list-tasks",
+  "say": "Вчера я встал пораньше, сварил кофе и пошёл на пробежку.",
+  "expect": [],
+  "must": [
+   "встал пораньше",
+   "сварил кофе",
+   "на пробежку"
+  ],
+  "format": "oneline",
+  "note": "Control: a story of three actions stays one sentence."
+ },
+ {
+  "id": "de.list-tasks.90",
+  "lang": "de",
+  "cat": "list-tasks",
+  "say": "Morgen wird ein sehr spannender Tag. Ich muss viele Dinge erledigen. Den Computer aufräumen, Wäsche waschen, das Auto putzen, in den Supermarkt gehen, bei der Apotheke vorbeischauen und eine Wassermelone kaufen.",
+  "expect": [],
+  "must": [
+   "spannender Tag",
+   "Computer",
+   "Wäsche",
+   "Auto",
+   "Supermarkt",
+   "Apotheke",
+   "Wassermelone"
+  ],
+  "format": "list",
+  "note": "Tasks rattled off after a lead-in (no 'first/second', no list word): each task on its own line. Drew 2026-10-23."
+ },
+ {
+  "id": "fr.list-tasks.90",
+  "lang": "fr",
+  "cat": "list-tasks",
+  "say": "Demain va être une journée très chargée. J'ai plein de choses à faire. Nettoyer l'ordinateur, faire la lessive, laver la voiture, aller au supermarché, passer à la pharmacie et acheter une pastèque.",
+  "expect": [],
+  "must": [
+   "journée très chargée",
+   "ordinateur",
+   "lessive",
+   "voiture",
+   "supermarché",
+   "pharmacie",
+   "pastèque"
+  ],
+  "format": "list",
+  "note": "Tasks rattled off after a lead-in (no 'first/second', no list word): each task on its own line. Drew 2026-10-23."
+ },
+ {
+  "id": "es.list-tasks.90",
+  "lang": "es",
+  "cat": "list-tasks",
+  "say": "Mañana va a ser un día muy intenso. Tengo un montón de cosas que hacer. Limpiar el ordenador, poner la lavadora, lavar el coche, ir al supermercado, pasar por la farmacia y comprar una sandía.",
+  "expect": [],
+  "must": [
+   "día muy intenso",
+   "ordenador",
+   "lavadora",
+   "coche",
+   "supermercado",
+   "farmacia",
+   "sandía"
+  ],
+  "format": "list",
+  "note": "Tasks rattled off after a lead-in (no 'first/second', no list word): each task on its own line. Drew 2026-10-23."
+ },
+ {
+  "id": "pt.list-tasks.90",
+  "lang": "pt",
+  "cat": "list-tasks",
+  "say": "Amanhã vai ser um dia muito corrido. Tenho um monte de coisas para fazer. Limpar o computador, lavar a roupa, lavar o carro, ir ao mercado, passar na farmácia e comprar uma melancia.",
+  "expect": [],
+  "must": [
+   "dia muito corrido",
+   "computador",
+   "roupa",
+   "carro",
+   "mercado",
+   "farmácia",
+   "melancia"
+  ],
+  "format": "list",
+  "note": "Tasks rattled off after a lead-in (no 'first/second', no list word): each task on its own line. Drew 2026-10-23."
+ },
+ {
+  "id": "it.list-tasks.90",
+  "lang": "it",
+  "cat": "list-tasks",
+  "say": "Domani sarà una giornata molto piena. Ho un sacco di cose da fare. Pulire il computer, fare il bucato, lavare la macchina, andare al supermercato, passare in farmacia e comprare un'anguria.",
+  "expect": [],
+  "must": [
+   "giornata molto piena",
+   "computer",
+   "bucato",
+   "macchina",
+   "supermercato",
+   "farmacia",
+   "anguria"
+  ],
+  "format": "list",
+  "note": "Tasks rattled off after a lead-in (no 'first/second', no list word): each task on its own line. Drew 2026-10-23."
+ }
+]

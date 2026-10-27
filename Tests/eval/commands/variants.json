@@ -1,0 +1,3294 @@
+[
+ {
+  "id": "en.v1",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "make it shorter",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v2",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "shorten it",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v3",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "shorter pls",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v4",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "trim it down",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v5",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "tighten it up",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v6",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "cut the fluff",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v7",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "boil it down",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v8",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "make it snappier",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v9",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "tldr it",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v10",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "give me the tldr",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v11",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "sum it up",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v12",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "in a nutshell",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v13",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "make it longer",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v14",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "flesh it out",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v15",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "beef it up",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v16",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "expand on it",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v17",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "make it wordier",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v18",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "add more detail",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v19",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "more formal",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v20",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "make it sound professional",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v21",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "tone it down",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v22",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "less stiff",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v23",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "more chill",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v24",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "make it chill",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v25",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "make it friendlier",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v26",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "warmer please",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v27",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "be nicer",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v28",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "make it sound nicer",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v29",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "more polite",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v30",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "make it sound human",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v31",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "less robotic",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v32",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "reword it",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v33",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "say it differently",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v34",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "put it another way",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v35",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "rephrase this bit",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v36",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "dumb it down",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v37",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "make it easier",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v38",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "in plain words",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v39",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "simplify it",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v40",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "fix the typos",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "en.v41",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "spellcheck it",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "en.v42",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "proofread it",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "en.v43",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "clean up the grammar",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "en.v44",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "fix my spelling",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "en.v45",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "check for mistakes",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "en.v46",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "bullet points",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "en.v47",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "bullet it",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "en.v48",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "bulletize it",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "en.v49",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "listify it",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "en.v50",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "make a list",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "en.v51",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "as a list",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "en.v52",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "into Spanish",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "en.v53",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "translate to Polish pls",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "en.v54",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "in English please",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "en.v55",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "Polish version",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "en.v56",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "switch it to German",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "en.v57",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "say it in French",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "en.v58",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "I want it to be shorter",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v59",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "I'd like it more formal",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v60",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "can you make it shorter",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v61",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "could you make this friendlier",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v62",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "let's make it shorter",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v63",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "do it shorter and friendlier",
+  "command": true,
+  "groups": [
+   "LENGTH",
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v64",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "make it shorter and fix the typos",
+  "command": true,
+  "groups": [
+   "LENGTH",
+   "FIX"
+  ]
+ },
+ {
+  "id": "en.v65",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "translate into English and make it formal",
+  "command": true,
+  "groups": [
+   "TRANSLATE",
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v66",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "type it in Polish",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "en.v67",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "write it in Polish",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "en.v68",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "do it in Polish",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "en.v69",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "make it Polish",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "en.v70",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "retype it in English",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "en.v71",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "say it in German",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "en.v72",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "put it in Russian",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "en.v73",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "type it shorter",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "en.v74",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "write it more formally",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v75",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "do it more politely",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "en.v76",
+  "lang": "en",
+  "selection": "hey can u send me the report asap, boss is mad",
+  "say": "make it a list",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "ru.v1",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "сделай короче",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "ru.v2",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "покороче",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "ru.v3",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "короче",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "ru.v4",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "сократи",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "ru.v5",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "урежь",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "ru.v6",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "ужми",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "ru.v7",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "сократи чутка",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "ru.v8",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "без воды",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "ru.v9",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "сожми",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "ru.v10",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "кратко",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "ru.v11",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "перескажи вкратце",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "ru.v12",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "сделай длиннее",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "ru.v13",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "распиши подробнее",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "ru.v14",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "подробнее",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "ru.v15",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "разверни",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "ru.v16",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "добавь деталей",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "ru.v17",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "официальнее",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "ru.v18",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "посерьёзнее",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "ru.v19",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "помягче",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "ru.v20",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "дружелюбнее",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "ru.v21",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "вежливее",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "ru.v22",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "поприличнее",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "ru.v23",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "сделай по-человечески",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "ru.v24",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "попроще",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "ru.v25",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "проще",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "ru.v26",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "упрости",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "ru.v27",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "скажи проще",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "ru.v28",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "перефразируй",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "ru.v29",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "скажи по-другому",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "ru.v30",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "перепиши",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "ru.v31",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "покрасивее",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "ru.v32",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "менее формально",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "ru.v33",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "исправь ошибки",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "ru.v34",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "поправь ошибки",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "ru.v35",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "проверь на ошибки",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "ru.v36",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "проверь орфографию",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "ru.v37",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "исправь опечатки",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "ru.v38",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "списком",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "ru.v39",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "сделай списком",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "ru.v40",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "по пунктам",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "ru.v41",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "разбей на пункты",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "ru.v42",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "на английский",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "ru.v43",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "переведи на инглиш",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "ru.v44",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "по-английски",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "ru.v45",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "на польском",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "ru.v46",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "переведи на польский",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "ru.v47",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "хочу, чтобы было короче",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "ru.v48",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "можешь сделать покороче",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "ru.v49",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "сделай короче и вежливее",
+  "command": true,
+  "groups": [
+   "LENGTH",
+   "REWORD"
+  ]
+ },
+ {
+  "id": "ru.v50",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "переведи на английский и исправь ошибки",
+  "command": true,
+  "groups": [
+   "TRANSLATE",
+   "FIX"
+  ]
+ },
+ {
+  "id": "ru.v51",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "напиши это по-польски",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "ru.v52",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "сделай на английском",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "ru.v53",
+  "lang": "ru",
+  "selection": "слушай, скинь отчёт побыстрее, а то шеф орёт",
+  "say": "набери на польском",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pl.v1",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "skróć",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pl.v2",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "skróć to",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pl.v3",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "krócej",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pl.v4",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "przytnij",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pl.v5",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "w skrócie",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pl.v6",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "streść",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pl.v7",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "podsumuj",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pl.v8",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "bez lania wody",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pl.v9",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "dłużej",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pl.v10",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "rozpisz",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pl.v11",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "rozwiń",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pl.v12",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "więcej szczegółów",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pl.v13",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "bardziej profesjonalnie",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pl.v14",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "oficjalniej",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pl.v15",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "luźniej",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pl.v16",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "na luzie",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pl.v17",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "grzeczniej",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pl.v18",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "uprzejmiej",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pl.v19",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "milej",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pl.v20",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "przyjaźniej",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pl.v21",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "prościej",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pl.v22",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "łatwiej",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pl.v23",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "uprość",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pl.v24",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "inaczej",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pl.v25",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "napisz to inaczej",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pl.v26",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "przeformułuj",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pl.v27",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "mniej sztywno",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pl.v28",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "popraw błędy",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "pl.v29",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "popraw literówki",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "pl.v30",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "sprawdź pisownię",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "pl.v31",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "sprawdź błędy",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "pl.v32",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "w punktach",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "pl.v33",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "wypunktuj",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "pl.v34",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "zrób listę",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "pl.v35",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "jako lista",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "pl.v36",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "na angielski",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pl.v37",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "po angielsku",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pl.v38",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "przetłumacz na ang",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pl.v39",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "na niemiecki",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pl.v40",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "chcę, żeby było krócej",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pl.v41",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "możesz to skrócić",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pl.v42",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "skróć i popraw błędy",
+  "command": true,
+  "groups": [
+   "LENGTH",
+   "FIX"
+  ]
+ },
+ {
+  "id": "pl.v43",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "przetłumacz na angielski i zrób bardziej formalnie",
+  "command": true,
+  "groups": [
+   "TRANSLATE",
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pl.v44",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "napisz to po angielsku",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pl.v45",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "zrób to po polsku",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pl.v46",
+  "lang": "pl",
+  "selection": "siema, wyślij mi raport szybko bo szef się wkurza",
+  "say": "wpisz po angielsku",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "de.v1",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "kürzer",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "de.v2",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "kürzer bitte",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "de.v3",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "kürz das mal",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "de.v4",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "mach's kürzer",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "de.v5",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "fass zusammen",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "de.v6",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "knapper",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "de.v7",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "länger",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "de.v8",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "ausführlicher",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "de.v9",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "mehr Details",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "de.v10",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "förmlicher",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "de.v11",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "formeller",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "de.v12",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "lockerer",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "de.v13",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "mach mal lockerer",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "de.v14",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "nicht so steif",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "de.v15",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "freundlicher",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "de.v16",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "höflicher",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "de.v17",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "netter",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "de.v18",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "einfacher",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "de.v19",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "vereinfachen",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "de.v20",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "anders formulieren",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "de.v21",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "umformulieren",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "de.v22",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "Fehler korrigieren",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "de.v23",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "Tippfehler raus",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "de.v24",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "Rechtschreibung prüfen",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "de.v25",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "korrigier die Fehler",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "de.v26",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "als Liste",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "de.v27",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "in Stichpunkten",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "de.v28",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "Stichpunkte",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "de.v29",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "auf Englisch",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "de.v30",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "ins Englische",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "de.v31",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "übersetz mal ins Polnische",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "de.v32",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "ich möchte es kürzer",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "de.v33",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "kannst du es kürzer machen",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "de.v34",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "kürzer und freundlicher",
+  "command": true,
+  "groups": [
+   "LENGTH",
+   "REWORD"
+  ]
+ },
+ {
+  "id": "de.v35",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "schreib es auf Englisch",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "de.v36",
+  "lang": "de",
+  "selection": "hey schick mir mal schnell den bericht, chef ist sauer",
+  "say": "mach es auf Deutsch",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "es.v1",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "más corto",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "es.v2",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "acórtalo",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "es.v3",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "resúmelo",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "es.v4",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "recórtalo",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "es.v5",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "en resumen",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "es.v6",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "más largo",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "es.v7",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "desarróllalo",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "es.v8",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "más detalles",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "es.v9",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "más formal",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "es.v10",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "más profesional",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "es.v11",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "menos formal",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "es.v12",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "más amable",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "es.v13",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "más educado",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "es.v14",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "más sencillo",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "es.v15",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "simplifícalo",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "es.v16",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "dilo de otra forma",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "es.v17",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "reformúlalo",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "es.v18",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "corrige los errores",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "es.v19",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "corrige la ortografía",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "es.v20",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "revisa las faltas",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "es.v21",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "en lista",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "es.v22",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "en viñetas",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "es.v23",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "haz una lista",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "es.v24",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "al inglés",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "es.v25",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "tradúcelo al inglés",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "es.v26",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "en polaco",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "es.v27",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "quiero que sea más corto",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "es.v28",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "más corto y más amable",
+  "command": true,
+  "groups": [
+   "LENGTH",
+   "REWORD"
+  ]
+ },
+ {
+  "id": "es.v29",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "escríbelo en inglés",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "es.v30",
+  "lang": "es",
+  "selection": "oye mándame el informe rápido que el jefe está enfadado",
+  "say": "hazlo en inglés",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "fr.v1",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "plus court",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "fr.v2",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "raccourcis",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "fr.v3",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "résume",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "fr.v4",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "en bref",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "fr.v5",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "plus long",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "fr.v6",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "développe",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "fr.v7",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "plus de détails",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "fr.v8",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "plus formel",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "fr.v9",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "plus pro",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "fr.v10",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "moins formel",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "fr.v11",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "plus sympa",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "fr.v12",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "plus poli",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "fr.v13",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "plus simple",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "fr.v14",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "simplifie",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "fr.v15",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "dis-le autrement",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "fr.v16",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "reformule",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "fr.v17",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "corrige les fautes",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "fr.v18",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "corrige l'orthographe",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "fr.v19",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "vérifie les fautes",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "fr.v20",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "en liste",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "fr.v21",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "en puces",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "fr.v22",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "fais une liste",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "fr.v23",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "en anglais",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "fr.v24",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "traduis en anglais",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "fr.v25",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "en polonais",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "fr.v26",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "je veux que ce soit plus court",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "fr.v27",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "plus court et plus poli",
+  "command": true,
+  "groups": [
+   "LENGTH",
+   "REWORD"
+  ]
+ },
+ {
+  "id": "fr.v28",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "écris-le en anglais",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "fr.v29",
+  "lang": "fr",
+  "selection": "salut envoie moi le rapport vite fait le boss est énervé",
+  "say": "fais-le en anglais",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pt.v1",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "mais curto",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pt.v2",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "encurte",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pt.v3",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "resuma",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pt.v4",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "em resumo",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pt.v5",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "mais longo",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pt.v6",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "desenvolva",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pt.v7",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "mais detalhes",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pt.v8",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "mais formal",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pt.v9",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "mais profissional",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pt.v10",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "menos formal",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pt.v11",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "mais gentil",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pt.v12",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "mais educado",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pt.v13",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "mais simples",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pt.v14",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "simplifique",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pt.v15",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "diga de outro jeito",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pt.v16",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "reformule",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pt.v17",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "corrija os erros",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "pt.v18",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "corrija a ortografia",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "pt.v19",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "revise os erros",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "pt.v20",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "em lista",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "pt.v21",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "em tópicos",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "pt.v22",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "faça uma lista",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "pt.v23",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "para o inglês",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pt.v24",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "traduza para o inglês",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pt.v25",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "em polonês",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pt.v26",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "quero que fique mais curto",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "pt.v27",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "mais curto e mais gentil",
+  "command": true,
+  "groups": [
+   "LENGTH",
+   "REWORD"
+  ]
+ },
+ {
+  "id": "pt.v28",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "escreva em inglês",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "pt.v29",
+  "lang": "pt",
+  "selection": "oi me manda o relatório rápido que o chefe tá bravo",
+  "say": "faça em inglês",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "it.v1",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "più corto",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "it.v2",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "accorcia",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "it.v3",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "riassumi",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "it.v4",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "in breve",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "it.v5",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "più lungo",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "it.v6",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "sviluppa",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "it.v7",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "più dettagli",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "it.v8",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "più formale",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "it.v9",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "più professionale",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "it.v10",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "meno formale",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "it.v11",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "più gentile",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "it.v12",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "più educato",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "it.v13",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "più semplice",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "it.v14",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "semplifica",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "it.v15",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "dillo in un altro modo",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "it.v16",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "riformula",
+  "command": true,
+  "groups": [
+   "REWORD"
+  ]
+ },
+ {
+  "id": "it.v17",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "correggi gli errori",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "it.v18",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "correggi l'ortografia",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "it.v19",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "controlla gli errori",
+  "command": true,
+  "groups": [
+   "FIX"
+  ]
+ },
+ {
+  "id": "it.v20",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "in elenco",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "it.v21",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "a punti",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "it.v22",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "fai un elenco",
+  "command": true,
+  "groups": [
+   "LIST"
+  ]
+ },
+ {
+  "id": "it.v23",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "in inglese",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "it.v24",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "traduci in inglese",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "it.v25",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "in polacco",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "it.v26",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "voglio che sia più corto",
+  "command": true,
+  "groups": [
+   "LENGTH"
+  ]
+ },
+ {
+  "id": "it.v27",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "più corto e più gentile",
+  "command": true,
+  "groups": [
+   "LENGTH",
+   "REWORD"
+  ]
+ },
+ {
+  "id": "it.v28",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "scrivilo in inglese",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ },
+ {
+  "id": "it.v29",
+  "lang": "it",
+  "selection": "ehi mandami il report veloce che il capo è arrabbiato",
+  "say": "fallo in inglese",
+  "command": true,
+  "groups": [
+   "TRANSLATE"
+  ]
+ }
+]

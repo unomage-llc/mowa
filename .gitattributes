@@ -1,0 +1,2 @@
+# RNNoise (BSD-3, xiph.org) is vendored C with large model tables; keep GitHub showing Mowa as a Swift project.
+Sources/CRNNoise/** linguist-vendored

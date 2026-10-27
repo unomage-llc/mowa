@@ -1,0 +1,85 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:800px;height:450px;overflow:hidden;font-family:Inter,sans-serif;color:#1d1d1f}
+body{background:linear-gradient(120deg,#f6ebe6 0%,#efeef2 55%,#e9ebf4 100%)}
+.win{position:absolute;left:60px;top:34px;width:680px;height:300px;background:#fff;border-radius:12px;
+  box-shadow:0 10px 30px rgba(0,0,0,.10),0 0 0 1px rgba(0,0,0,.07);overflow:hidden}
+.bar{height:38px;background:#f3f3f4;border-bottom:1px solid #e3e3e5;position:relative;text-align:center;
+  font-size:14px;line-height:38px;color:#3c3c40;font-weight:500}
+.dots{position:absolute;left:14px;top:13px;display:flex;gap:8px}
+.dots i{width:12px;height:12px;border-radius:50%;display:block}
+.field{height:40px;border-bottom:1px solid #ececee;padding:0 28px;font-size:14px;line-height:40px;color:#8a8a8f}
+.field b{font-weight:400;color:#1d1d1f}
+.body{padding:20px 28px;font-size:17px;line-height:1.55;white-space:pre-wrap}
+.caret{display:inline-block;width:2px;height:20px;background:#1d1d1f;vertical-align:-4px;margin-left:1px}
+.sel{background:#b3d7ff}
+.pill{position:absolute;left:50%;bottom:24px;transform:translateX(-50%);height:40px;border-radius:20px;background:#2b2b2d;
+  display:flex;align-items:center;justify-content:center;gap:3px;padding:0 18px;min-width:84px}
+.pill span{display:block;width:2.5px;border-radius:2px;background:#ff7a59}
+.pill .stop{width:12px;height:12px;border-radius:3px;background:#fff;margin-left:12px}
+.pill .busy{width:6px;height:6px;border-radius:50%;background:#ff7a59;margin:0 3px}
+.say{position:absolute;left:0;right:0;top:350px;text-align:center;font-size:15px;color:#6e6e73;font-style:italic}
+.say b{font-style:normal;color:#f26a4b;font-weight:600;margin-right:8px}
+.key{position:absolute;left:60px;top:386px;display:flex;align-items:center;gap:14px;font-size:14px;color:#55555a}
+.cap{min-width:46px;height:42px;padding:0 10px;border-radius:9px;background:#fff;border:1px solid #d6d6da;
+  box-shadow:0 1px 2px rgba(0,0,0,.08);display:flex;align-items:center;justify-content:center;font-size:14px;color:#3c3c40}
+.cap.on{border:2px solid #f26a4b;color:#f26a4b;background:#fff7f4}
+.kbd{position:absolute;right:14px;top:8px;height:22px;padding:0 8px;border-radius:5px;background:#fff;border:1px solid #d6d6da;font-size:12px;line-height:20px;color:#3c3c40;font-weight:600}
+.kbd.hi{border:2px solid #f26a4b;color:#f26a4b;line-height:18px}
+.label{position:absolute;right:60px;top:394px;font-size:13px;font-weight:600;color:#f26a4b;letter-spacing:.02em}
+/* chat */
+.chat{padding:16px 22px;display:flex;flex-direction:column;gap:8px;height:186px;justify-content:flex-start}
+.msg{max-width:72%;padding:8px 13px;border-radius:16px;font-size:15px;line-height:1.4}
+.them{background:#ececef;align-self:flex-start}
+.me{background:#3d7cf5;color:#fff;align-self:flex-end}
+.input{position:absolute;left:18px;right:18px;bottom:16px;min-height:42px;border:1px solid #dcdce0;border-radius:21px;
+  padding:10px 16px;font-size:15px;line-height:1.4;white-space:pre-wrap}
+.input .caret{height:17px;vertical-align:-3px}
+</style></head>
+<body><div id="root"></div>
+<script>
+const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
+const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+let S=null;
+function setScene(s){S=s}
+function wave(t,n,amp){let h='';for(let i=0;i<n;i++){const v=amp*(0.35+0.65*Math.abs(Math.sin(t*7+i*1.7)*Math.cos(t*3.1+i*.6)));h+=`<span style="height:${4+v*20}px"></span>`}return h}
+function render(t){
+  const s=S;
+  const rs=s.recStart,re=s.recEnd;const pressed=s.handsFree? ((t>=rs-0.45&&t<rs-0.3)||(t>=rs-0.15&&t<rs)||(t>=re-0.2&&t<re)) : (t>=rs&&t<re);
+  const recording=t>=s.recStart&&t<s.recEnd;
+  const busy=t>=s.recEnd&&t<s.typeStart;
+  // spoken words
+  let sayHTML='';
+  if(t>=s.recStart+0.2&&t<s.typeStart+0.6){
+    const w=s.say.split(' ');const span=(s.recEnd-0.3)-(s.recStart+0.2);
+    const k=clamp(Math.ceil((t-s.recStart-0.2)/span*w.length),1,w.length);
+    const shown=w.slice(Math.max(0,k-13),k).join(' ');sayHTML=`<b>You say:</b>“${k>13?'… ':''}${esc(shown)}”`;
+  }
+  // output text
+  const typed=t>=s.typeStart? s.output.slice(0,Math.floor(clamp((t-s.typeStart)/s.typeDur,0,1)*s.output.length)):'';
+  const done=t>=s.typeStart+s.typeDur;
+  const blink=(Math.floor(t*2)%2===0)||!done;
+  const caret=(t<s.typeStart+s.typeDur+1.2&&blink&&!(s.selection&&t<s.typeStart))?'<span class="caret"></span>':'';
+  let content;
+  const pre=s.before||'';
+  if(s.selection){
+    content= t<s.typeStart? esc(pre)+`<span class="sel">${esc(s.selection)}</span>`+esc(s.after||'') : esc(pre)+esc(typed)+caret+esc(s.after||'');
+  } else content=esc(pre)+esc(typed)+caret;
+  let pill='';
+  const ps=s.kind==='chat'?' style="bottom:72px"':'';
+  if(recording) pill=`<div class="pill"${ps}>${wave(t,s.handsFree?11:14,1)}${s.handsFree?'<div class="stop"></div>':''}</div>`;
+  else if(busy){let d='';for(let i=0;i<3;i++){const o=0.3+0.7*Math.max(0,Math.sin(t*8-i*1.1));d+=`<div class="busy" style="opacity:${o}"></div>`}pill=`<div class="pill"${ps}>${d}</div>`}
+  let win=`<div class="win"><div class="bar"><div class="dots"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i></div>${esc(s.title)}${s.kbd?`<div class="kbd ${t>=s.recEnd&&t<s.typeStart+s.typeDur+0.8?'hi':''}">⌨ ${esc(s.kbd)}</div>`:''}</div>`;
+  if(s.kind==='chat'){
+    win+=`<div class="chat">${s.messages.map(m=>`<div class="msg ${m[0]}">${esc(m[1])}</div>`).join('')}</div><div class="input">${content}</div>`;
+  } else {
+    for(const f of (s.fields||[])) win+=`<div class="field">${esc(f[0])} <b>${esc(f[1])}</b></div>`;
+    win+=`<div class="body" style="${s.mono?'font-family:DejaVu Sans Mono,monospace;font-size:15px;':''}">${content}</div>`;
+  }
+  win+=pill+'</div>';
+  let keyCap=s.keys.map(k=>`<div class="cap ${pressed?'on':''}">${k}</div>`).join('');
+  document.getElementById('root').innerHTML=win+`<div class="say">${sayHTML}</div><div class="key">${keyCap}<div>${s.caption}</div></div><div class="label">${esc(s.label)}</div>`;
+}
+</script></body></html>
