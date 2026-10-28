@@ -347,6 +347,17 @@ final class Round4FixesTests: XCTestCase {
         XCTAssertEqual(CorrectionResolver.resolve("Spotkajmy się o czwartej, a nie, o wpół do szóstej.", strict: true),
                        "Spotkajmy się o wpół do szóstej.")
         XCTAssertNil(CorrectionResolver.resolve("Chcę kawę, a nie herbatę.", strict: true))
+        // Bare "no" before the model: like for like only (Drew 2026-10-28).
+        XCTAssertEqual(CorrectionResolver.resolve("Now count the users who have more than 10 notes, whose account was created more than 2 days ago, and who were online in the last 24, no, 48 hours.", strict: true),
+                       "Now count the users who have more than 10 notes, whose account was created more than 2 days ago, and who were online in the last 48 hours.")
+        XCTAssertEqual(CorrectionResolver.resolve("Online in the last 24. No, 48 hours.", strict: true), "Online in the last 48 hours.")
+        XCTAssertEqual(CorrectionResolver.resolve("Call me at 5, no, at 6.", strict: true), "Call me at 6.")
+        XCTAssertEqual(CorrectionResolver.resolve("Meet me Tuesday, no, Wednesday at noon.", strict: true), "Meet me Wednesday at noon.")
+        XCTAssertEqual(CorrectionResolver.resolve("Встречаемся в 5, нет, в 6, у метро.", strict: true), "Встречаемся в 6, у метро.")
+        XCTAssertNil(CorrectionResolver.resolve("Yes, no problem.", strict: true))
+        XCTAssertNil(CorrectionResolver.resolve("I'm at home, no, at work.", strict: true))
+        XCTAssertNil(CorrectionResolver.resolve("On Monday, no, I can't.", strict: true))
+        XCTAssertNil(CorrectionResolver.resolve("Send the file to Anna, no, to Kasia.", strict: true))
         XCTAssertTrue(CorrectionCheck.hasMarker("Mandami il preventivo lunedì, anzi no, martedì mattina."))
     }
 

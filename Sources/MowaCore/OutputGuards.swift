@@ -1457,6 +1457,16 @@ public enum CorrectionResolver {
                 s = (s as NSString).replacingCharacters(in: m.range, with: ", " + marker + ", " + next.lowercased())
             }
         }
+        // "in the last 24. No, 48 hours" → "24, no, 48 hours": a bare negation as its own sentence,
+        // only between two numbers (Drew 2026-10-28).
+        if let re = try? NSRegularExpression(pattern: "(\\d)[.!?]\\s+(" + negations.filter { $0 != "a nie" }.joined(separator: "|") + ")[.!?,]\\s+(?=(?:\\p{L}{1,4}\\s+)?\\d)", options: [.caseInsensitive]) {
+            let ns = s as NSString
+            for m in re.matches(in: s, range: NSRange(location: 0, length: ns.length)).reversed() {
+                let digit = (s as NSString).substring(with: m.range(at: 1))
+                let neg = (s as NSString).substring(with: m.range(at: 2)).lowercased()
+                s = (s as NSString).replacingCharacters(in: m.range, with: digit + ", " + neg + ", ")
+            }
+        }
         // "no way" heard for "no wait" — only between two times/numbers.
         s = s.replacingOccurrences(of: "(?i)(\\d[\\d:.]*\\s*(?:am|pm|a\\.m\\.|p\\.m\\.)?),\\s*no way,\\s*(?=(?:at\\s+|by\\s+)?\\d)",
                                    with: "$1, no wait, ", options: .regularExpression)
@@ -1475,8 +1485,9 @@ public enum CorrectionResolver {
             .joined(separator: "|")
         // A marker set off by punctuation: "X, marker, Y" / "X. Marker, Y" / "X, no, Y".
         var pattern = "(?:[,.;]\\s*(" + alternation + ")\\s*[,:]?\\s+"
-        // Strict: only «…, a nie, …» of the bare negations (with a comma after, it always corrects).
-        let negationList = strict ? ["a nie"] : negations
+        // Strict: bare negations too, but below only a number for a number / a day or time for a
+        // day or time ("in the last 24, no, 48 hours", Drew 2026-10-28: the model kept both).
+        let negationList = negations
         pattern += "|,\\s*(" + negationList.map { $0.replacingOccurrences(of: " ", with: "\\s+") }.joined(separator: "|") + ")\\s*,\\s*"
         pattern += ")(?=[\\p{L}\\p{N}])"
         guard let re = try? NSRegularExpression(pattern: pattern, options: [.caseInsensitive]),
@@ -1488,6 +1499,8 @@ public enum CorrectionResolver {
             let marker = ns.substring(with: markerRange).lowercased()
                 .replacingOccurrences(of: "[\\s,]+", with: " ", options: .regularExpression)
             let loose = clarifiers.contains(marker) || apologies.contains(marker)
+            // "Yes, no, I can't" / «kawę, a nie herbatę»: a bare "no" corrects only like for like.
+            let bareNegation = negations.contains(marker) && marker != "a nie"
             var before = ns.substring(to: m.range.location)
             var after = ns.substring(from: m.range.location + m.range.length)
             // "Tuesday, sorry, I mean Thursday" / "at 5, no, sorry, at 6": the apology (and a "no"
@@ -1520,6 +1533,8 @@ public enum CorrectionResolver {
             if let anchor = found.indices.suffix(8).last(where: { norm(word($0)) == first }) {
                 startIdx = anchor
                 count = min(yWords.count, found.count - anchor)
+                // "at 5, no, at 6" passes; "at home, no, at work" is left to the model.
+                if strict && bareNegation && !(0..<count).contains(where: { sameKind(word(startIdx + $0), yWords[$0]) }) { continue }
             } else {
                 // No matching word: a name for a name ("Julien, je veux dire Mathieu") is safe with
                 // any marker; anything else only after a marker that always corrects.
@@ -1529,6 +1544,7 @@ public enum CorrectionResolver {
                 // A day for a day, a time for a time, a number for a number ("lunedì, anzi no, martedì").
                 let kindSwap = sameKind(word(last), yWords[0])
                 if (loose || strict) && !nameSwap && !kindSwap { continue }
+                if strict && bareNegation && !kindSwap { continue }
                 startIdx = last
                 count = 1
                 while startIdx > 0, timeWords.contains(word(startIdx).lowercased()),
